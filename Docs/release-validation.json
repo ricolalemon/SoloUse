@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-06",
+  "candidate_version": "0.21.2",
+  "build": 58,
+  "baseline_version": "0.21.1",
+  "distribution": "source-only developer preview",
+  "toolchain": {
+    "xcode": "27.0 (27A266a)",
+    "rust": "1.98.1",
+    "xcodegen": "2.46.0"
+  },
+  "builds": {
+    "main_release_unsigned": "passed",
+    "main_debug_unsigned": "passed",
+    "lab_debug_unsigned": "passed",
+    "custom_bundle_prefix_and_background_identifier": "passed",
+    "release_from_extracted_source_zip_without_local_config": "passed",
+    "default_bundle_prefix_and_background_identifier": "passed"
+  },
+  "tests": {
+    "rust_unit_tests_passed": 26,
+    "swift_c_script_reported_pass_groups": 66,
+    "publication_guard_tests_passed": 10,
+    "diagnostic_summary_tests_passed": 2,
+    "localization_coverage": "passed"
+  },
+  "license_inventory": {
+    "lock_graph_packages_including_first_party": 190,
+    "third_party_packages": 189,
+    "third_party_ios_graph_packages": 152,
+    "declaration_only_packages": [
+      "ns-keyed-archive 0.1.5",
+      "plist-macro 0.1.6"
+    ]
+  },
+  "privacy": {
+    "known_private_prototype_identifier_scan": "passed",
+    "source_publication_scan": "passed",
+    "historical_runtime_exports_included": false,
+    "screenshots_included": false,
+    "signing_material_included": false,
+    "source_zip_smoke_check": "passed"
+  },
+  "not_performed": [
+    "fresh signed physical-device installation",
+    "live account/provider requests",
+    "new gameplay or unplugged endurance test"
+  ],
+  "publication_scope": "Source-only developer preview; no signed app or binary release"
+}

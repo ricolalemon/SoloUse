@@ -1,0 +1,46 @@
+# Build output and generated projects
+.build/
+Build/
+Native/target/
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.xcuserstate
+.DS_Store
+__pycache__/
+*.pyc
+# Local signing/configuration
+Config.local.xcconfig
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+*.crt
+*.der
+*.signing.plist
+signing/
+*.p8
+*.ipa
+*.app/
+*.dSYM/
+*.xcarchive/
+*.a
+*.dylib
+# Runtime/diagnostic material never belongs in the repository
+.env
+.env.*
+!.env.example
+auth.json
+pairing.plist
+pairingFile.plist
+*pairing*.plist
+*.key
+*.pem
+*.log
+*.jsonl
+debug-traces/
+task-records/
+SoloUsePrivate/
+media-session-owner
+exports/
+release/

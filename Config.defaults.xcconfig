@@ -1,0 +1,3 @@
+// Public defaults for an unsigned build. Override in the ignored local file.
+SOLOUSE_BUNDLE_PREFIX = dev.solouse
+#include? "Config.local.xcconfig"

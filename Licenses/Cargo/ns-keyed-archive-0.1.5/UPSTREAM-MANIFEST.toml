@@ -1,0 +1,13 @@
+[package]
+name = "ns-keyed-archive"
+version = "0.1.5"
+edition = "2024"
+authors = ["Jackson Coxson"]
+description = "A library to encode/decode NSKeyedArchive binary plists"
+repository = "https://github.com/jkcoxson/ns_keyed_archive"
+license = "MIT OR Apache-2.0"
+keywords = ["apple", "plist", "NSKeyedArchive", "decoder", "encoder"]
+
+[dependencies]
+plist = "1.7.0"
+nskeyedarchiver_converter = "0.1.3"

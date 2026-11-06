@@ -1,0 +1,17 @@
+SoloUse
+Copyright (c) 2026 SoloUse contributors
+
+First-party code is under MIT except files explicitly marked otherwise.
+Third-party code retains its own license and notices.
+
+OpenAI Codex
+Copyright 2025 OpenAI
+The subscription authentication/request implementation adapts Codex revision
+ d3e584093222018fc27919403aea149ccfd3bb38 (Apache-2.0).
+The implementation was rewritten in Swift for URLSession and iOS Keychain.
+The compaction-trigger exchange follows that revision's Responses protocol.
+See Licenses/codex-Apache-2.0.txt and THIRD_PARTY_NOTICES.md.
+No Ratatui implementation is included.
+
+This project is not affiliated with or endorsed by Apple or OpenAI.
+Software licenses do not grant rights to use third-party accounts or services.

@@ -1,0 +1,5 @@
+* text=auto eol=lf
+# Preserve retained upstream bytes and recorded license hashes on every platform.
+Licenses/** -text
+Native/vendor/** -text
+Native/QuickJS/** -text

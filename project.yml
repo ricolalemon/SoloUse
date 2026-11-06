@@ -1,0 +1,111 @@
+name: SoloUse
+options:
+  developmentLanguage: en
+  knownRegions: [en, zh-Hans]
+  bundleIdPrefix: dev.solouse
+  deploymentTarget:
+    iOS: "27.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    IPHONEOS_DEPLOYMENT_TARGET: "27.0"
+    PRODUCT_BUNDLE_IDENTIFIER: "$(SOLOUSE_BUNDLE_PREFIX).probe"
+    MARKETING_VERSION: "0.21.2"
+    CURRENT_PROJECT_VERSION: "58"
+    TARGETED_DEVICE_FAMILY: "1"
+    CODE_SIGN_STYLE: Automatic
+    SWIFT_OBJC_BRIDGING_HEADER: Native/SoloUse.h
+    LIBRARY_SEARCH_PATHS: "$(inherited) $(PROJECT_DIR)/Build"
+    OTHER_LDFLAGS: "$(inherited) -lsolouse_core -liconv -framework Security -framework SystemConfiguration"
+configFiles:
+  Debug: Config.defaults.xcconfig
+  Release: Config.defaults.xcconfig
+targets:
+  SoloUse:
+    type: application
+    platform: iOS
+    postBuildScripts:
+      - name: Strip Finder metadata from generated app
+        script: '/usr/bin/xattr -d com.apple.FinderInfo "$TARGET_BUILD_DIR/$WRAPPER_NAME" 2>/dev/null || true'
+        basedOnDependencyAnalysis: false
+        showEnvVars: false
+    sources:
+      - App
+      - path: Native/ScriptEngine
+      - path: Native/QuickJS
+        includes: [quickjs.c, dtoa.c, libregexp.c, libunicode.c]
+        compilerFlags: "-Wno-shorten-64-to-32 -Wno-conversion"
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: SoloUse
+        SoloUseBundlePrefix: "$(SOLOUSE_BUNDLE_PREFIX)"
+        CFBundleLocalizations: [en, zh-Hans]
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        NSLocalNetworkUsageDescription: "SoloUse connects to this iPhone's own developer services to test screen capture and input."
+        NSBonjourServices: ["_remotepairing-pairable-host._tcp", "_remotepairing._tcp"]
+        BGTaskSchedulerPermittedIdentifiers: ["$(PRODUCT_BUNDLE_IDENTIFIER).session"]
+        UIBackgroundModes: [processing]
+    settings:
+      base:
+        ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: NO
+        GCC_PREPROCESSOR_DEFINITIONS: "$(inherited) _GNU_SOURCE"
+        GCC_C_LANGUAGE_STANDARD: c11
+  SoloUseTree:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [TreeRunner]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: "$(SOLOUSE_BUNDLE_PREFIX).tree"
+        SWIFT_OBJC_BRIDGING_HEADER: TreeRunner/TreeSnapshot.h
+        OTHER_LDFLAGS: ""
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: SoloUseLab
+    dependencies:
+      - target: SoloUseLab
+  SoloUseLab:
+    type: application
+    platform: iOS
+    postBuildScripts:
+      - name: Strip Finder metadata from generated app
+        script: '/usr/bin/xattr -d com.apple.FinderInfo "$TARGET_BUILD_DIR/$WRAPPER_NAME" 2>/dev/null || true'
+        basedOnDependencyAnalysis: false
+        showEnvVars: false
+    sources: [Lab]
+    info:
+      path: Lab/Info.plist
+      properties:
+        CFBundleDisplayName: SoloUse Lab
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+          UISceneConfigurations: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: "$(SOLOUSE_BUNDLE_PREFIX).lab"
+        SWIFT_OBJC_BRIDGING_HEADER: ""
+        OTHER_LDFLAGS: ""
+schemes:
+  SoloUse:
+    build:
+      targets:
+        SoloUse: all
+  SoloUseTree:
+    build:
+      targets:
+        SoloUseTree: all
+        SoloUseLab: all
+    test:
+      targets: [SoloUseTree]
+
+  SoloUseLab:
+    build:
+      targets:
+        SoloUseLab: all

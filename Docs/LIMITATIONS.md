@@ -1,0 +1,12 @@
+# Limitations and release scope
+
+- Developer preview for real iPhones. Last physical-device validation used an iPhone 17 Pro Max on iOS 27.0.1. This candidate requires Xcode/iOS SDK 27 and targets iOS 27; older iOS, iPad, landscape and general device compatibility are not claimed.
+- Requires Developer Mode, development signing, prepared developer services/DDI and LocalDevVPN. No-VPN self-loopback tests did not succeed. Complete device-reboot recovery without a computer has not been verified.
+- Phone/VoIP calls can prevent media-session startup. Locking, background expiration, lost connectivity and system dialogs can interrupt a task.
+- The subscription transport is an experimental third-party implementation using a ChatGPT/Codex backend. It is not a supported public API integration, is not endorsed by OpenAI, and can change or stop working. It currently has no API-key fallback. Availability and permission to use a service are not established by the source license. [Official Codex authentication documentation](https://developers.openai.com/codex/auth).
+- Model choice comes from the account catalog. Historical model names and results are evidence from earlier tests, not a promise of current access. Fast is a request; the server receipt determines the actual tier. Earlier physical tests returned the default tier, so acceleration is not claimed.
+- Screenshot control is the default. Coordinates depend on the observed frame, and UI effects must be visually verified. A native "executed" receipt confirms input delivery, not a successful business outcome.
+- QuickJS is a restricted runtime: per-call CPU/wall/memory/output bounds remain. User-configurable overall turn/time limits are optional. No setting removes provider, storage or iOS constraints.
+- Mid-script recovery does not restore the instruction pointer or persistent JS globals. Unknown side effects are not automatically retried. There is no semantic exactly-once guarantee or per-app action permission boundary.
+- Historical screenshot retrieval and automatic compaction do not guarantee semantic memory preservation. Intermediate script captures suppressed with `emit:false` are not shown to the model. The prior daily-challenge trial lost; this is not a general game-solving benchmark.
+- This preparation pass builds and tests locally; it does not claim a fresh physical-device installation or an App Store/TestFlight-ready distribution. Development signatures expire according to the user's provisioning profile.

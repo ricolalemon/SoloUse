@@ -1,0 +1,2390 @@
+{
+  "检查准备状态": {
+    "zh": "检查准备状态",
+    "en": "Check readiness"
+  },
+  "无法读取屏幕，请保持手机解锁后重试": {
+    "zh": "无法读取屏幕，请保持手机解锁后重试",
+    "en": "Could not read the screen. Keep your iPhone unlocked and try again."
+  },
+  "检查完成": {
+    "zh": "检查完成",
+    "en": "Check complete"
+  },
+  "连接检查超时，请检查 LocalDevVPN 后重试": {
+    "zh": "连接检查超时，请检查 LocalDevVPN 后重试",
+    "en": "Connection check timed out. Check LocalDevVPN and try again."
+  },
+  "检查通过": {
+    "zh": "检查通过",
+    "en": "Check passed"
+  },
+  "检查结束": {
+    "zh": "检查结束",
+    "en": "Check ended"
+  },
+  "检查已停止": {
+    "zh": "检查已停止",
+    "en": "Check stopped"
+  },
+  "已发现本机开发服务，但端口拒绝连接。请保持手机解锁后重新检查": {
+    "zh": "已发现本机开发服务，但端口拒绝连接。请保持手机解锁后重新检查",
+    "en": "Developer services were found, but the connection was refused. Keep your iPhone unlocked and check again."
+  },
+  "未发现本机开发服务，默认端口拒绝连接。请保持 Wi‑Fi 和开发者模式开启后重试": {
+    "zh": "未发现本机开发服务，默认端口拒绝连接。请保持 Wi‑Fi 和开发者模式开启后重试",
+    "en": "Developer services were not found and the default port refused the connection. Keep Wi-Fi and Developer Mode on, then try again."
+  },
+  "本机配对验证未通过，请在设备页检查配对状态": {
+    "zh": "本机配对验证未通过，请在设备页检查配对状态",
+    "en": "Pairing verification failed. Check pairing on the Device tab."
+  },
+  "后台会话": {
+    "zh": "后台会话",
+    "en": "Background session"
+  },
+  "系统未能启动后台会话，请稍后重试": {
+    "zh": "系统未能启动后台会话，请稍后重试",
+    "en": "The system could not start a background session. Try again later."
+  },
+  "无法连接本机。请连接 LocalDevVPN 后重试": {
+    "zh": "无法连接本机。请连接 LocalDevVPN 后重试",
+    "en": "Could not connect to this iPhone. Connect LocalDevVPN and try again."
+  },
+  "屏幕或控制服务不可用。请保持手机解锁，检查开发者模式后重试": {
+    "zh": "屏幕或控制服务不可用。请保持手机解锁，检查开发者模式后重试",
+    "en": "Screen or control services are unavailable. Keep your iPhone unlocked, check Developer Mode, and try again."
+  },
+  "输入要做的事，由你启动": {
+    "zh": "输入要做的事，由你启动",
+    "en": "Enter a task to get started"
+  },
+  "请先登录原来的 ChatGPT 账号": {
+    "zh": "请先登录原来的 ChatGPT 账号",
+    "en": "Sign in to the original ChatGPT account first"
+  },
+  "历史聊天读取失败：{0}": {
+    "zh": "历史聊天读取失败：{0}",
+    "en": "Could not load chat history: {0}"
+  },
+  "完整上下文未找到，仍保留已有聊天记录。": {
+    "zh": "完整上下文未找到，仍保留已有聊天记录。",
+    "en": "Full context was not found. The saved transcript is still available."
+  },
+  "已恢复待回答的问题，回复后可继续原任务": {
+    "zh": "已恢复待回答的问题，回复后可继续原任务",
+    "en": "Your pending question was restored. Reply to continue the task."
+  },
+  "回答已保存，点继续原任务": {
+    "zh": "回答已保存，点继续原任务",
+    "en": "Reply saved. Tap Resume task."
+  },
+  "模拟器仅用于界面预览，请在 iPhone 上运行任务": {
+    "zh": "模拟器仅用于界面预览，请在 iPhone 上运行任务",
+    "en": "The simulator supports interface previews only. Run tasks on an iPhone."
+  },
+  "请登录原来的 ChatGPT 账号后恢复任务": {
+    "zh": "请登录原来的 ChatGPT 账号后恢复任务",
+    "en": "Sign in to the original ChatGPT account to resume this task"
+  },
+  "旧的询问记录无法清除，请稍后重试": {
+    "zh": "旧的询问记录无法清除，请稍后重试",
+    "en": "Could not clear the previous question. Try again later."
+  },
+  "已带入旧版保存的聊天记录；旧版未保存完整操作上下文。": {
+    "zh": "已带入旧版保存的聊天记录；旧版未保存完整操作上下文。",
+    "en": "The transcript saved by the older version was restored. That version did not save the full action context."
+  },
+  "从已保存的问题处继续，之前的操作不会重放。": {
+    "zh": "从已保存的问题处继续，之前的操作不会重放。",
+    "en": "Resuming from the saved question. Previous actions will not be replayed."
+  },
+  "正在准备任务": {
+    "zh": "正在准备任务",
+    "en": "Preparing task"
+  },
+  "聊天未能保存：{0}": {
+    "zh": "聊天未能保存：{0}",
+    "en": "Could not save chat: {0}"
+  },
+  "手机连接已结束；你可以先回复，再打开 SoloUse 继续": {
+    "zh": "手机连接已结束；你可以先回复，再打开 SoloUse 继续",
+    "en": "The phone connection ended. You can reply now, then open SoloUse to resume."
+  },
+  "回答已保存；打开 SoloUse 后点继续": {
+    "zh": "回答已保存；打开 SoloUse 后点继续",
+    "en": "Reply saved. Open SoloUse and tap Resume."
+  },
+  "手机连接已结束：{0}": {
+    "zh": "手机连接已结束：{0}",
+    "en": "Phone connection ended: {0}"
+  },
+  "正在确认所选模型": {
+    "zh": "正在确认所选模型",
+    "en": "Checking the selected model"
+  },
+  "本次模型：": {
+    "zh": "本次模型：",
+    "en": "Model for this run: "
+  },
+  "已达到你设置的 {0} 轮上限；点继续可接着当前任务": {
+    "zh": "已达到你设置的 {0} 轮上限；点继续可接着当前任务",
+    "en": "Your limit of {0} turns was reached. Tap Resume to continue this task."
+  },
+  "已停止；已完成的操作不会撤销": {
+    "zh": "已停止；已完成的操作不会撤销",
+    "en": "Stopped. Completed actions have not been undone."
+  },
+  "上下文未能保存：{0}": {
+    "zh": "上下文未能保存：{0}",
+    "en": "Could not save context: {0}"
+  },
+  "历史聊天未能保存：{0}": {
+    "zh": "历史聊天未能保存：{0}",
+    "en": "Could not save chat history: {0}"
+  },
+  "模型正在回复": {
+    "zh": "模型正在回复",
+    "en": "Model is responding"
+  },
+  " · 已执行": {
+    "zh": " · 已执行",
+    "en": " · Executed"
+  },
+  "正在处理操作结果": {
+    "zh": "正在处理操作结果",
+    "en": "Processing action results"
+  },
+  "正在停止…": {
+    "zh": "正在停止…",
+    "en": "Stopping…"
+  },
+  "已达到你设置的 {0} 分钟上限；点继续可接着当前任务": {
+    "zh": "已达到你设置的 {0} 分钟上限；点继续可接着当前任务",
+    "en": "Your limit of {0} minutes was reached. Tap Resume to continue this task."
+  },
+  "你接管了手机，自动操作已暂停。继续时会重新观察屏幕。": {
+    "zh": "你接管了手机，自动操作已暂停。继续时会重新观察屏幕。",
+    "en": "You took control of the phone. Automation is paused and will observe the screen again when resumed."
+  },
+  "你继续了任务。": {
+    "zh": "你继续了任务。",
+    "en": "You resumed the task."
+  },
+  "恢复连接失败：{0}": {
+    "zh": "恢复连接失败：{0}",
+    "en": "Could not reconnect: {0}"
+  },
+  "恢复后没有可用的手机会话": {
+    "zh": "恢复后没有可用的手机会话",
+    "en": "No phone session is available after reconnecting"
+  },
+  "草稿未能保存：{0}": {
+    "zh": "草稿未能保存：{0}",
+    "en": "Could not save draft: {0}"
+  },
+  "无法保存询问上下文": {
+    "zh": "无法保存询问上下文",
+    "en": "Could not save the question context"
+  },
+  "等待你的回复，可长按通知直接回答": {
+    "zh": "等待你的回复，可长按通知直接回答",
+    "en": "Waiting for your reply. Touch and hold the notification to answer."
+  },
+  "正在恢复手机连接": {
+    "zh": "正在恢复手机连接",
+    "en": "Reconnecting to the phone"
+  },
+  "回答未能保存，请回到任务页重试": {
+    "zh": "回答未能保存，请回到任务页重试",
+    "en": "Could not save your reply. Try again on the Tasks tab."
+  },
+  "请先停止当前任务，再切换聊天。": {
+    "zh": "请先停止当前任务，再切换聊天。",
+    "en": "Stop the current task before switching chats."
+  },
+  "新聊天未能打开：{0}": {
+    "zh": "新聊天未能打开：{0}",
+    "en": "Could not open a new chat: {0}"
+  },
+  "聊天已打开，但当前记录缓存未能更新。": {
+    "zh": "聊天已打开，但当前记录缓存未能更新。",
+    "en": "Chat opened, but its local cache could not be updated."
+  },
+  "聊天未能打开：{0}": {
+    "zh": "聊天未能打开：{0}",
+    "en": "Could not open chat: {0}"
+  },
+  "聊天删除未完全完成：{0}": {
+    "zh": "聊天删除未完全完成：{0}",
+    "en": "Chat deletion did not finish: {0}"
+  },
+  "历史列表未能读取：{0}": {
+    "zh": "历史列表未能读取：{0}",
+    "en": "Could not load the history list: {0}"
+  },
+  "记录未能保存；请在离开前复制需要的回答。": {
+    "zh": "记录未能保存；请在离开前复制需要的回答。",
+    "en": "Could not save the record. Copy any answers you need before leaving."
+  },
+  "通知尚未开启": {
+    "zh": "通知尚未开启",
+    "en": "Notifications are off"
+  },
+  "收到": {
+    "zh": "收到",
+    "en": "Got it"
+  },
+  "稍后": {
+    "zh": "稍后",
+    "en": "Later"
+  },
+  "回复并继续": {
+    "zh": "回复并继续",
+    "en": "Reply and resume"
+  },
+  "回复": {
+    "zh": "回复",
+    "en": "Reply"
+  },
+  "发送": {
+    "zh": "发送",
+    "en": "Send"
+  },
+  "输入你的回答": {
+    "zh": "输入你的回答",
+    "en": "Enter your reply"
+  },
+  "停止任务": {
+    "zh": "停止任务",
+    "en": "Stop task"
+  },
+  "停止测试": {
+    "zh": "停止测试",
+    "en": "Stop test"
+  },
+  "有问题等待你回复": {
+    "zh": "有问题等待你回复",
+    "en": "A question is waiting for your reply"
+  },
+  "无法打开系统设置。请手动前往「设置 → 通知 → SoloUse」。": {
+    "zh": "无法打开系统设置。请手动前往「设置 → 通知 → SoloUse」。",
+    "en": "Could not open Settings. Go to Settings → Notifications → SoloUse."
+  },
+  "通知未能送达，请在任务页回复": {
+    "zh": "通知未能送达，请在任务页回复",
+    "en": "Notification could not be delivered. Reply on the Tasks tab."
+  },
+  "SoloUse 等待你的回复": {
+    "zh": "SoloUse 等待你的回复",
+    "en": "SoloUse is waiting for your reply"
+  },
+  "请在当前任务结束后测试通知。": {
+    "zh": "请在当前任务结束后测试通知。",
+    "en": "Wait for the current task to finish before testing notifications."
+  },
+  "正在检查通知权限…": {
+    "zh": "正在检查通知权限…",
+    "en": "Checking notification permission…"
+  },
+  "通知尚未开启，请前往系统设置允许通知。": {
+    "zh": "通知尚未开启，请前往系统设置允许通知。",
+    "en": "Notifications are off. Allow notifications in Settings."
+  },
+  "SoloUse 通知回复测试": {
+    "zh": "SoloUse 通知回复测试",
+    "en": "SoloUse notification reply test"
+  },
+  "长按这条通知，选择「收到」或输入一句回复。": {
+    "zh": "长按这条通知，选择「收到」或输入一句回复。",
+    "en": "Touch and hold this notification, then choose “Got it” or type a reply."
+  },
+  "长按测试通知，选择「收到」或输入回复。可以停留在此页。": {
+    "zh": "长按测试通知，选择「收到」或输入回复。可以停留在此页。",
+    "en": "Touch and hold the test notification, then choose “Got it” or type a reply. You can stay on this page."
+  },
+  "通知测试未能启动，请重试。": {
+    "zh": "通知测试未能启动，请重试。",
+    "en": "The notification test could not start. Try again."
+  },
+  "已收到你的回复，测试通过。": {
+    "zh": "已收到你的回复，测试通过。",
+    "en": "Reply received. Test passed."
+  },
+  "测试已停止。": {
+    "zh": "测试已停止。",
+    "en": "Test stopped."
+  },
+  "回复未能保存，请重新测试。": {
+    "zh": "回复未能保存，请重新测试。",
+    "en": "Your reply could not be saved. Run the test again."
+  },
+  "长按测试通知，选择一个选项或输入回复。": {
+    "zh": "长按测试通知，选择一个选项或输入回复。",
+    "en": "Touch and hold the test notification to choose an option or type a reply."
+  },
+  "SoloUse 需要恢复连接": {
+    "zh": "SoloUse 需要恢复连接",
+    "en": "SoloUse needs to reconnect"
+  },
+  "后台连接已结束。你仍可回复问题，之后打开 SoloUse 继续。": {
+    "zh": "后台连接已结束。你仍可回复问题，之后打开 SoloUse 继续。",
+    "en": "The background connection ended. You can still reply, then open SoloUse to resume."
+  },
+  "你的回答已保存。打开 SoloUse，点继续原任务。": {
+    "zh": "你的回答已保存。打开 SoloUse，点继续原任务。",
+    "en": "Your reply is saved. Open SoloUse and tap Resume task."
+  },
+  "适合需要细致理解画面的复杂任务": {
+    "zh": "适合需要细致理解画面的复杂任务",
+    "en": "For complex tasks that need detailed visual understanding"
+  },
+  "适合日常操作与多步骤任务": {
+    "zh": "适合日常操作与多步骤任务",
+    "en": "For everyday actions and tasks with multiple steps"
+  },
+  "适合简单、直接的任务": {
+    "zh": "适合简单、直接的任务",
+    "en": "For simple, straightforward tasks"
+  },
+  "请先在账号页登录": {
+    "zh": "请先在账号页登录",
+    "en": "Sign in on the Account tab first"
+  },
+  "用于下一次任务": {
+    "zh": "用于下一次任务",
+    "en": "Applies to your next task"
+  },
+  "推理强度": {
+    "zh": "推理强度",
+    "en": "Reasoning effort"
+  },
+  "（已不可用）": {
+    "zh": "（已不可用）",
+    "en": " (unavailable)"
+  },
+  "low · 轻量": {
+    "zh": "low · 轻量",
+    "en": "low · Light"
+  },
+  "当前选择": {
+    "zh": "当前选择",
+    "en": "Current selection"
+  },
+  "选择会自动保存。执行中的任务保持原模型和推理强度。": {
+    "zh": "选择会自动保存。执行中的任务保持原模型和推理强度。",
+    "en": "Your selection is saved automatically. Running tasks keep their original model and reasoning effort."
+  },
+  "Fast 优先处理": {
+    "zh": "Fast 优先处理",
+    "en": "Fast priority processing"
+  },
+  "此模型暂未提供 Fast。请关闭 Fast 或选择支持的模型后开始任务。": {
+    "zh": "此模型暂未提供 Fast。请关闭 Fast 或选择支持的模型后开始任务。",
+    "en": "Fast is unavailable for this model. Turn it off or select a supported model before starting."
+  },
+  "当前账号目录暂未提供此模型的 Fast。": {
+    "zh": "当前账号目录暂未提供此模型的 Fast。",
+    "en": "Your account's catalog does not offer Fast for this model."
+  },
+  "查看官方用量说明": {
+    "zh": "查看官方用量说明",
+    "en": "View official usage details"
+  },
+  "响应速度": {
+    "zh": "响应速度",
+    "en": "Response speed"
+  },
+  "Fast 会消耗更多订阅用量，费率见官方说明。它保持所选模型与推理强度，实际处理档位会显示在任务记录中。": {
+    "zh": "Fast 会消耗更多订阅用量，费率见官方说明。它保持所选模型与推理强度，实际处理档位会显示在任务记录中。",
+    "en": "Fast uses more of your subscription allowance; see the official rates. It keeps your selected model and reasoning effort. The actual service tier appears in the task record."
+  },
+  "读取订阅模型…": {
+    "zh": "读取订阅模型…",
+    "en": "Loading subscription models…"
+  },
+  "支持 Fast": {
+    "zh": "支持 Fast",
+    "en": "Supports Fast"
+  },
+  "当前订阅没有返回可用于识图的模型": {
+    "zh": "当前订阅没有返回可用于识图的模型",
+    "en": "Your subscription returned no models with image input"
+  },
+  "可用模型": {
+    "zh": "可用模型",
+    "en": "Available models"
+  },
+  "显示当前账号目录中支持图片输入的模型。可用性以服务端为准。": {
+    "zh": "显示当前账号目录中支持图片输入的模型。可用性以服务端为准。",
+    "en": "Models with image input from your account's catalog. Availability is determined by the server."
+  },
+  "之前选择的模型已不在目录中，请重新选择。": {
+    "zh": "之前选择的模型已不在目录中，请重新选择。",
+    "en": "Your previous model is no longer in the catalog. Select another model."
+  },
+  "刷新模型列表": {
+    "zh": "刷新模型列表",
+    "en": "Refresh models"
+  },
+  "更新于 {0}": {
+    "zh": "更新于 {0}",
+    "en": "Updated at {0}"
+  },
+  "模型与速度": {
+    "zh": "模型与速度",
+    "en": "Model and speed"
+  },
+  "完成": {
+    "zh": "完成",
+    "en": "Done"
+  },
+  "正在检查准备状态": {
+    "zh": "正在检查准备状态",
+    "en": "Checking readiness"
+  },
+  "先登录账号，再开始任务": {
+    "zh": "先登录账号，再开始任务",
+    "en": "Sign in before starting a task"
+  },
+  "先完成设备配对，再开始任务": {
+    "zh": "先完成设备配对，再开始任务",
+    "en": "Pair your device before starting a task"
+  },
+  "账号正在连接，请稍候": {
+    "zh": "账号正在连接，请稍候",
+    "en": "Connecting your account. Please wait."
+  },
+  "设备检查进行中，请稍候": {
+    "zh": "设备检查进行中，请稍候",
+    "en": "Device check in progress. Please wait."
+  },
+  "正在更新模型列表": {
+    "zh": "正在更新模型列表",
+    "en": "Updating the model list"
+  },
+  "最新进度": {
+    "zh": "最新进度",
+    "en": "Latest"
+  },
+  "回到最新进度": {
+    "zh": "回到最新进度",
+    "en": "Jump to latest progress"
+  },
+  "历史聊天": {
+    "zh": "历史聊天",
+    "en": "Chat history"
+  },
+  "新聊天": {
+    "zh": "新聊天",
+    "en": "New chat"
+  },
+  "准备状态": {
+    "zh": "准备状态",
+    "en": "Readiness"
+  },
+  "只观察，不操作": {
+    "zh": "只观察，不操作",
+    "en": "Observe only"
+  },
+  "运行设置": {
+    "zh": "运行设置",
+    "en": "Run settings"
+  },
+  "任务通知": {
+    "zh": "任务通知",
+    "en": "Task notifications"
+  },
+  "测试通知回复": {
+    "zh": "测试通知回复",
+    "en": "Test notification replies"
+  },
+  "调试记录": {
+    "zh": "调试记录",
+    "en": "Debug records"
+  },
+  "任务选项": {
+    "zh": "任务选项",
+    "en": "Task options"
+  },
+  "回复，或补充你的要求…": {
+    "zh": "回复，或补充你的要求…",
+    "en": "Reply or add instructions…"
+  },
+  "发送回复": {
+    "zh": "发送回复",
+    "en": "Send reply"
+  },
+  "回答已保存，继续时会重新查看当前屏幕。": {
+    "zh": "回答已保存，继续时会重新查看当前屏幕。",
+    "en": "Reply saved. The screen will be observed again when you resume."
+  },
+  "继续原任务": {
+    "zh": "继续原任务",
+    "en": "Resume task"
+  },
+  "继续聊，或补充要求…": {
+    "zh": "继续聊，或补充要求…",
+    "en": "Continue chatting or add instructions…"
+  },
+  "告诉手机要做什么…": {
+    "zh": "告诉手机要做什么…",
+    "en": "Tell your phone what to do…"
+  },
+  "选择模型，当前 {0}": {
+    "zh": "选择模型，当前 {0}",
+    "en": "Choose model. Current: {0}"
+  },
+  "准备就绪 · 可以开始": {
+    "zh": "准备就绪 · 可以开始",
+    "en": "Ready to start"
+  },
+  "准备状态 · {0}/5": {
+    "zh": "准备状态 · {0}/5",
+    "en": "Readiness · {0}/5"
+  },
+  "只观察屏幕 · 不执行操作": {
+    "zh": "只观察屏幕 · 不执行操作",
+    "en": "Observe only · No actions"
+  },
+  "保持 LocalDevVPN 连接": {
+    "zh": "保持 LocalDevVPN 连接",
+    "en": "Keep LocalDevVPN connected"
+  },
+  "继续任务": {
+    "zh": "继续任务",
+    "en": "Resume task"
+  },
+  "暂停": {
+    "zh": "暂停",
+    "en": "Pause"
+  },
+  "正在回复": {
+    "zh": "正在回复",
+    "en": "Responding"
+  },
+  "未完成": {
+    "zh": "未完成",
+    "en": "Incomplete"
+  },
+  "{0} 步": {
+    "zh": "{0} 步",
+    "en": "{0} steps"
+  },
+  "需检查": {
+    "zh": "需检查",
+    "en": "Check needed"
+  },
+  "查看任务详情": {
+    "zh": "查看任务详情",
+    "en": "View task details"
+  },
+  "无法读取剪贴板，请在 SoloUse 中允许粘贴后重试。": {
+    "zh": "无法读取剪贴板，请在 SoloUse 中允许粘贴后重试。",
+    "en": "Could not read the clipboard. Allow pasting in SoloUse and try again."
+  },
+  "剪贴板已变化，未继续更改，请重新开始或继续任务。": {
+    "zh": "剪贴板已变化，未继续更改，请重新开始或继续任务。",
+    "en": "The clipboard changed, so no further changes were made. Start or resume the task again."
+  },
+  "剪贴板内容超过本机备份容量，原内容未更改。": {
+    "zh": "剪贴板内容超过本机备份容量，原内容未更改。",
+    "en": "Clipboard content exceeds the local backup capacity. The original content was not changed."
+  },
+  "本机剪贴板副本未通过校验，请检查后重试。": {
+    "zh": "本机剪贴板副本未通过校验，请检查后重试。",
+    "en": "The local clipboard copy failed verification. Check it and try again."
+  },
+  "使用准备": {
+    "zh": "使用准备",
+    "en": "Getting ready"
+  },
+  "检查中": {
+    "zh": "检查中",
+    "en": "Checking"
+  },
+  "可以开始": {
+    "zh": "可以开始",
+    "en": "Ready"
+  },
+  "停止检查": {
+    "zh": "停止检查",
+    "en": "Stop check"
+  },
+  "重新检查": {
+    "zh": "重新检查",
+    "en": "Check again"
+  },
+  "检查于 {0} · 开始任务时会重新连接": {
+    "zh": "检查于 {0} · 开始任务时会重新连接",
+    "en": "Checked at {0} · Reconnects when a task starts"
+  },
+  "可选": {
+    "zh": "可选",
+    "en": "Optional"
+  },
+  "已开启": {
+    "zh": "已开启",
+    "en": "On"
+  },
+  "设置": {
+    "zh": "设置",
+    "en": "Settings"
+  },
+  "待检查": {
+    "zh": "待检查",
+    "en": "Not checked"
+  },
+  "已通过": {
+    "zh": "已通过",
+    "en": "Passed"
+  },
+  "未通过": {
+    "zh": "未通过",
+    "en": "Failed"
+  },
+  "模型轮数": {
+    "zh": "模型轮数",
+    "en": "Model turns"
+  },
+  "不限（默认）": {
+    "zh": "不限（默认）",
+    "en": "Unlimited (default)"
+  },
+  "50 轮": {
+    "zh": "50 轮",
+    "en": "50 turns"
+  },
+  "100 轮": {
+    "zh": "100 轮",
+    "en": "100 turns"
+  },
+  "200 轮": {
+    "zh": "200 轮",
+    "en": "200 turns"
+  },
+  "500 轮": {
+    "zh": "500 轮",
+    "en": "500 turns"
+  },
+  "连续运行时长": {
+    "zh": "连续运行时长",
+    "en": "Continuous runtime"
+  },
+  "5 分钟": {
+    "zh": "5 分钟",
+    "en": "5 minutes"
+  },
+  "15 分钟": {
+    "zh": "15 分钟",
+    "en": "15 minutes"
+  },
+  "30 分钟": {
+    "zh": "30 分钟",
+    "en": "30 minutes"
+  },
+  "60 分钟": {
+    "zh": "60 分钟",
+    "en": "60 minutes"
+  },
+  "下一次任务": {
+    "zh": "下一次任务",
+    "en": "Next task"
+  },
+  "默认不会按轮数或时长截断。若你设置上限，达到后会在下一步操作前暂停，保留当前上下文；点继续即可再运行一段。截图和工具选择也会占用模型轮次。": {
+    "zh": "默认不会按轮数或时长截断。若你设置上限，达到后会在下一步操作前暂停，保留当前上下文；点继续即可再运行一段。截图和工具选择也会占用模型轮次。",
+    "en": "By default, tasks have no turn or time limit. If you set a limit, the task pauses before the next action and keeps its context. Tap Resume to continue. Screenshots and tool selection also use model turns."
+  },
+  "这不是订阅额度设置。运行仍会使用你的模型用量；网络错误、iOS 后台限制和内存容量问题会单独说明。": {
+    "zh": "这不是订阅额度设置。运行仍会使用你的模型用量；网络错误、iOS 后台限制和内存容量问题会单独说明。",
+    "en": "These settings do not change your subscription allowance. Tasks still use your model allowance. Network errors, iOS background limits, and memory issues are reported separately."
+  },
+  "连接这台 iPhone": {
+    "zh": "连接这台 iPhone",
+    "en": "Connect this iPhone"
+  },
+  "首次使用需要配对。": {
+    "zh": "首次使用需要配对。",
+    "en": "Pairing is required before first use."
+  },
+  "本机配对": {
+    "zh": "本机配对",
+    "en": "Device pairing"
+  },
+  "配对记录已保存在这台手机": {
+    "zh": "配对记录已保存在这台手机",
+    "en": "Pairing is saved on this iPhone"
+  },
+  "首次使用需要在系统设置中确认": {
+    "zh": "首次使用需要在系统设置中确认",
+    "en": "Confirm in Settings before first use"
+  },
+  "已配对": {
+    "zh": "已配对",
+    "en": "Paired"
+  },
+  "待配对": {
+    "zh": "待配对",
+    "en": "Not paired"
+  },
+  "在「设置 → 隐私与安全性 → 开发者模式」中选择「与 SoloUse 配对」，输入这组 PIN。": {
+    "zh": "在「设置 → 隐私与安全性 → 开发者模式」中选择「与 SoloUse 配对」，输入这组 PIN。",
+    "en": "In Settings → Privacy & Security → Developer Mode, choose “Pair with SoloUse” and enter this PIN."
+  },
+  "当前任务正在使用设备": {
+    "zh": "当前任务正在使用设备",
+    "en": "The current task is using this device"
+  },
+  "设备连接进行中…": {
+    "zh": "设备连接进行中…",
+    "en": "Connecting to the device…"
+  },
+  "停止": {
+    "zh": "停止",
+    "en": "Stop"
+  },
+  "检查连接": {
+    "zh": "检查连接",
+    "en": "Check connection"
+  },
+  "开始本机配对": {
+    "zh": "开始本机配对",
+    "en": "Pair this iPhone"
+  },
+  "最近一次截图": {
+    "zh": "最近一次截图",
+    "en": "Latest screenshot"
+  },
+  "最近一次检查的画面。": {
+    "zh": "最近一次检查的画面。",
+    "en": "Screen from the latest check."
+  },
+  "任务运行中。请先在任务页停止任务，再检查设备连接。": {
+    "zh": "任务运行中。请先在任务页停止任务，再检查设备连接。",
+    "en": "A task is running. Stop it on the Tasks tab before checking the connection."
+  },
+  "运行时保持 LocalDevVPN 连接": {
+    "zh": "运行时保持 LocalDevVPN 连接",
+    "en": "Keep LocalDevVPN connected while running"
+  },
+  "开始任务时会检查连接。": {
+    "zh": "开始任务时会检查连接。",
+    "en": "The connection is checked when a task starts."
+  },
+  "首次使用步骤": {
+    "zh": "首次使用步骤",
+    "en": "First-time setup"
+  },
+  "准备开发者模式": {
+    "zh": "准备开发者模式",
+    "en": "Set up Developer Mode"
+  },
+  "完成安装和开发服务准备，并在系统设置中开启开发者模式。": {
+    "zh": "完成安装和开发服务准备，并在系统设置中开启开发者模式。",
+    "en": "Complete installation and developer service setup, then enable Developer Mode in Settings."
+  },
+  "连接本地 VPN": {
+    "zh": "连接本地 VPN",
+    "en": "Connect the local VPN"
+  },
+  "打开 LocalDevVPN 并连接，再回到 SoloUse。": {
+    "zh": "打开 LocalDevVPN 并连接，再回到 SoloUse。",
+    "en": "Open LocalDevVPN, connect, then return to SoloUse."
+  },
+  "完成本机配对": {
+    "zh": "完成本机配对",
+    "en": "Pair this iPhone"
+  },
+  "点击上方配对按钮，在系统设置中输入 PIN。": {
+    "zh": "点击上方配对按钮，在系统设置中输入 PIN。",
+    "en": "Tap the pairing button above and enter the PIN in Settings."
+  },
+  "检查后开始任务": {
+    "zh": "检查后开始任务",
+    "en": "Check, then start a task"
+  },
+  "取得截图后，回到任务页描述你要完成的事。": {
+    "zh": "取得截图后，回到任务页描述你要完成的事。",
+    "en": "Once a screenshot is available, return to Tasks and describe what you want to do."
+  },
+  "高级诊断": {
+    "zh": "高级诊断",
+    "en": "Advanced diagnostics"
+  },
+  "点击、后台运行与连接路径测试": {
+    "zh": "点击、后台运行与连接路径测试",
+    "en": "Touch, background runtime, and connection tests"
+  },
+  "粘贴权限": {
+    "zh": "粘贴权限",
+    "en": "Paste permission"
+  },
+  "若 SoloUse 反复请求允许粘贴，可在系统设置中将「从其他 App 粘贴」设为「允许」。这会允许 SoloUse 读取剪贴板；原内容仅在本机备份和恢复。": {
+    "zh": "若 SoloUse 反复请求允许粘贴，可在系统设置中将「从其他 App 粘贴」设为「允许」。这会允许 SoloUse 读取剪贴板；原内容仅在本机备份和恢复。",
+    "en": "If SoloUse repeatedly asks to paste, set “Paste from Other Apps” to “Allow” in Settings. This lets SoloUse read the clipboard. Original content is backed up and restored only on this device."
+  },
+  "打开 SoloUse 设置": {
+    "zh": "打开 SoloUse 设置",
+    "en": "Open SoloUse settings"
+  },
+  "运行时请保持手机解锁。": {
+    "zh": "运行时请保持手机解锁。",
+    "en": "Keep your iPhone unlocked while running."
+  },
+  "设备": {
+    "zh": "设备",
+    "en": "Device"
+  },
+  "登录后可在任务页操作手机": {
+    "zh": "登录后可在任务页操作手机",
+    "en": "Sign in to operate your phone from Tasks"
+  },
+  "登录信息已保存在这台 iPhone": {
+    "zh": "登录信息已保存在这台 iPhone",
+    "en": "Sign-in details are saved on this iPhone"
+  },
+  "登录后即可选择模型并开始任务": {
+    "zh": "登录后即可选择模型并开始任务",
+    "en": "Sign in to select a model and start tasks"
+  },
+  "已保存本机登录": {
+    "zh": "已保存本机登录",
+    "en": "Sign-in saved on this device"
+  },
+  "无法读取本机登录，请重试": {
+    "zh": "无法读取本机登录，请重试",
+    "en": "Could not read saved sign-in details. Try again."
+  },
+  "已停止": {
+    "zh": "已停止",
+    "en": "Stopped"
+  },
+  "网络请求失败（{0}）": {
+    "zh": "网络请求失败（{0}）",
+    "en": "Network request failed ({0})"
+  },
+  "响应解析失败，请保留当前状态以便检查": {
+    "zh": "响应解析失败，请保留当前状态以便检查",
+    "en": "Could not parse the response. Keep the current state for diagnosis."
+  },
+  "正在向 OpenAI 申请设备码…": {
+    "zh": "正在向 OpenAI 申请设备码…",
+    "en": "Requesting a device code from OpenAI…"
+  },
+  "请打开 OpenAI 网页，输入上面的代码；授权后返回此页": {
+    "zh": "请打开 OpenAI 网页，输入上面的代码；授权后返回此页",
+    "en": "Open the OpenAI page and enter the code above. Return here after authorization."
+  },
+  "登录完成，凭据已保存到这台 iPhone": {
+    "zh": "登录完成，凭据已保存到这台 iPhone",
+    "en": "Signed in. Credentials are saved on this iPhone."
+  },
+  "本机登录已清除": {
+    "zh": "本机登录已清除",
+    "en": "Local sign-in cleared"
+  },
+  "本机登录清除失败": {
+    "zh": "本机登录清除失败",
+    "en": "Could not clear local sign-in"
+  },
+  "账号": {
+    "zh": "账号",
+    "en": "Account"
+  },
+  "使用 ChatGPT / Codex 订阅。": {
+    "zh": "使用 ChatGPT / Codex 订阅。",
+    "en": "Use your ChatGPT / Codex subscription."
+  },
+  "订阅账号": {
+    "zh": "订阅账号",
+    "en": "Subscription account"
+  },
+  " 订阅": {
+    "zh": " 订阅",
+    "en": " subscription"
+  },
+  "连接你的账号": {
+    "zh": "连接你的账号",
+    "en": "Connect your account"
+  },
+  "已登录": {
+    "zh": "已登录",
+    "en": "Signed in"
+  },
+  "未登录": {
+    "zh": "未登录",
+    "en": "Not signed in"
+  },
+  "登录 ChatGPT": {
+    "zh": "登录 ChatGPT",
+    "en": "Sign in to ChatGPT"
+  },
+  "在 OpenAI 网页输入此代码": {
+    "zh": "在 OpenAI 网页输入此代码",
+    "en": "Enter this code on the OpenAI page"
+  },
+  "打开授权网页": {
+    "zh": "打开授权网页",
+    "en": "Open authorization page"
+  },
+  "复制代码": {
+    "zh": "复制代码",
+    "en": "Copy code"
+  },
+  "网页提示未启用设备码登录时，请先在 ChatGPT 安全设置中开启。授权后返回这里即可。": {
+    "zh": "网页提示未启用设备码登录时，请先在 ChatGPT 安全设置中开启。授权后返回这里即可。",
+    "en": "If the page says device code sign-in is disabled, enable it in ChatGPT security settings. Return here after authorization."
+  },
+  "正在连接…": {
+    "zh": "正在连接…",
+    "en": "Connecting…"
+  },
+  "等待网页授权…": {
+    "zh": "等待网页授权…",
+    "en": "Waiting for web authorization…"
+  },
+  "取消": {
+    "zh": "取消",
+    "en": "Cancel"
+  },
+  "登录方式": {
+    "zh": "登录方式",
+    "en": "Sign-in method"
+  },
+  "在 OpenAI 网页授权。": {
+    "zh": "在 OpenAI 网页授权。",
+    "en": "Authorize on the OpenAI website."
+  },
+  "登录信息": {
+    "zh": "登录信息",
+    "en": "Sign-in details"
+  },
+  "保存在本机钥匙串。": {
+    "zh": "保存在本机钥匙串。",
+    "en": "Stored in this device's Keychain."
+  },
+  "屏幕内容": {
+    "zh": "屏幕内容",
+    "en": "Screen content"
+  },
+  "任务所需截图会发送给你选择的云端模型。": {
+    "zh": "任务所需截图会发送给你选择的云端模型。",
+    "en": "Screenshots needed for your task are sent to your selected cloud model."
+  },
+  "退出本机登录": {
+    "zh": "退出本机登录",
+    "en": "Sign out on this device"
+  },
+  "实验版": {
+    "zh": "实验版",
+    "en": "Experimental"
+  },
+  "退出本机登录？": {
+    "zh": "退出本机登录？",
+    "en": "Sign out on this device?"
+  },
+  "退出登录": {
+    "zh": "退出登录",
+    "en": "Sign out"
+  },
+  "这会清除手机上保存的登录信息，不会撤销 OpenAI 服务端授权。": {
+    "zh": "这会清除手机上保存的登录信息，不会撤销 OpenAI 服务端授权。",
+    "en": "This removes sign-in details stored on your phone. It does not revoke authorization on OpenAI's servers."
+  },
+  "读取系统设置…": {
+    "zh": "读取系统设置…",
+    "en": "Reading system settings…"
+  },
+  "等待系统授权…": {
+    "zh": "等待系统授权…",
+    "en": "Waiting for system permission…"
+  },
+  "开启任务通知": {
+    "zh": "开启任务通知",
+    "en": "Enable task notifications"
+  },
+  "前往系统设置": {
+    "zh": "前往系统设置",
+    "en": "Open Settings"
+  },
+  "提醒方式": {
+    "zh": "提醒方式",
+    "en": "Delivery options"
+  },
+  "横幅或提醒": {
+    "zh": "横幅或提醒",
+    "en": "Banners or alerts"
+  },
+  "锁定屏幕": {
+    "zh": "锁定屏幕",
+    "en": "Lock Screen"
+  },
+  "通知中心": {
+    "zh": "通知中心",
+    "en": "Notification Center"
+  },
+  "声音": {
+    "zh": "声音",
+    "en": "Sound"
+  },
+  "长按通知回复": {
+    "zh": "长按通知回复",
+    "en": "Touch and hold a notification to reply"
+  },
+  "在 App 内直接查看任务进度": {
+    "zh": "在 App 内直接查看任务进度",
+    "en": "View task progress in the app"
+  },
+  "提醒可能受专注模式或通知摘要影响。": {
+    "zh": "提醒可能受专注模式或通知摘要影响。",
+    "en": "Focus and Scheduled Summary may affect delivery."
+  },
+  "刷新状态": {
+    "zh": "刷新状态",
+    "en": "Refresh status"
+  },
+  "未开启": {
+    "zh": "未开启",
+    "en": "Off"
+  },
+  "任务": {
+    "zh": "任务",
+    "en": "Tasks"
+  },
+  "配对记录已保存": {
+    "zh": "配对记录已保存",
+    "en": "Pairing record saved"
+  },
+  "等待首次配对": {
+    "zh": "等待首次配对",
+    "en": "Waiting for initial pairing"
+  },
+  "系统结束了后台会话，请检查手机后重试": {
+    "zh": "系统结束了后台会话，请检查手机后重试",
+    "en": "The system ended the background session. Check your iPhone and try again."
+  },
+  "SoloUse 任务": {
+    "zh": "SoloUse 任务",
+    "en": "SoloUse task"
+  },
+  "SoloUse 设备测试": {
+    "zh": "SoloUse 设备测试",
+    "en": "SoloUse device test"
+  },
+  "请打开开发者模式配对": {
+    "zh": "请打开开发者模式配对",
+    "en": "Open Developer Mode to pair"
+  },
+  "由你启动的手机操作": {
+    "zh": "由你启动的手机操作",
+    "en": "Phone actions you started"
+  },
+  " · 会话 {0} 秒 · {1} 次调用": {
+    "zh": " · 会话 {0} 秒 · {1} 次调用",
+    "en": " · Session {0}s · {1} calls"
+  },
+  "正在发现本机开发服务…": {
+    "zh": "正在发现本机开发服务…",
+    "en": "Discovering local developer services…"
+  },
+  "系统未启动后台会话，请稍后重试": {
+    "zh": "系统未启动后台会话，请稍后重试",
+    "en": "The system did not start the background session. Try again later."
+  },
+  "后台测试：{0} / {1} 秒": {
+    "zh": "后台测试：{0} / {1} 秒",
+    "en": "Background test: {0} / {1}s"
+  },
+  "SoloUse 后台测试": {
+    "zh": "SoloUse 后台测试",
+    "en": "SoloUse background test"
+  },
+  "{0} / {1} 秒 · RTP {2}": {
+    "zh": "{0} / {1} 秒 · RTP {2}",
+    "en": "{0} / {1}s · RTP {2}"
+  },
+  "后台测试完成：{0} 秒": {
+    "zh": "后台测试完成：{0} 秒",
+    "en": "Background test complete: {0}s"
+  },
+  "手机连接失败": {
+    "zh": "手机连接失败",
+    "en": "Phone connection failed"
+  },
+  "设备诊断": {
+    "zh": "设备诊断",
+    "en": "Device diagnostics"
+  },
+  "连接、触控与后台运行测试": {
+    "zh": "连接、触控与后台运行测试",
+    "en": "Connection, touch, and background runtime tests"
+  },
+  "首次配对和连接诊断。日常任务在“任务”页启动。": {
+    "zh": "首次配对和连接诊断。日常任务在“任务”页启动。",
+    "en": "Initial pairing and connection diagnostics. Start everyday tasks on the Tasks tab."
+  },
+  "把此 PIN 输入到设置中的“与 SoloUse 配对”。": {
+    "zh": "把此 PIN 输入到设置中的“与 SoloUse 配对”。",
+    "en": "Enter this PIN in “Pair with SoloUse” in Settings."
+  },
+  "1. 本机配对": {
+    "zh": "1. 本机配对",
+    "en": "1. Pair this iPhone"
+  },
+  "2. 连接与截图": {
+    "zh": "2. 连接与截图",
+    "en": "2. Connect and capture screen"
+  },
+  "3. 测试一次点击": {
+    "zh": "3. 测试一次点击",
+    "en": "3. Test one tap"
+  },
+  "4. 后台 {0} 分钟": {
+    "zh": "4. 后台 {0} 分钟",
+    "en": "4. Run in background for {0} minutes"
+  },
+  "后台测试时长": {
+    "zh": "后台测试时长",
+    "en": "Background test duration"
+  },
+  "1 分钟": {
+    "zh": "1 分钟",
+    "en": "1 minute"
+  },
+  "10 分钟": {
+    "zh": "10 分钟",
+    "en": "10 minutes"
+  },
+  "通用工具 / 后台自检": {
+    "zh": "通用工具 / 后台自检",
+    "en": "Tools / background self-check"
+  },
+  "停止自检": {
+    "zh": "停止自检",
+    "en": "Stop self-check"
+  },
+  "无 VPN 地址对照": {
+    "zh": "无 VPN 地址对照",
+    "en": "Compare addresses without VPN"
+  },
+  "点击测试区域": {
+    "zh": "点击测试区域",
+    "en": "Tap test area"
+  },
+  "收到点击：{0}": {
+    "zh": "收到点击：{0}",
+    "en": "Taps received: {0}"
+  },
+  "调试记录无法保存：{0}": {
+    "zh": "调试记录无法保存：{0}",
+    "en": "Could not save debug records: {0}"
+  },
+  "请先结束当前任务再删除记录": {
+    "zh": "请先结束当前任务再删除记录",
+    "en": "End the current task before deleting records"
+  },
+  "模型长连接不可用（{0}）": {
+    "zh": "模型长连接不可用（{0}）",
+    "en": "Persistent model connection unavailable ({0})"
+  },
+  "模型长连接": {
+    "zh": "模型长连接",
+    "en": "Persistent model connection"
+  },
+  "连接并读取应用列表…": {
+    "zh": "连接并读取应用列表…",
+    "en": "Connecting and reading the app list…"
+  },
+  "通用工具自检": {
+    "zh": "通用工具自检",
+    "en": "General tool self-check"
+  },
+  "应用列表自检失败": {
+    "zh": "应用列表自检失败",
+    "en": "App list self-check failed"
+  },
+  "应用列表读取成功；即将回主屏幕观察 70 秒": {
+    "zh": "应用列表读取成功；即将回主屏幕观察 70 秒",
+    "en": "App list loaded. Returning to the Home Screen to observe for 70 seconds."
+  },
+  "后台自检 70 秒": {
+    "zh": "后台自检 70 秒",
+    "en": "70-second background self-check"
+  },
+  "Home 自检结果不确定，已停止": {
+    "zh": "Home 自检结果不确定，已停止",
+    "en": "Home action result is uncertain. Self-check stopped."
+  },
+  "后台会话提前结束": {
+    "zh": "后台会话提前结束",
+    "en": "Background session ended early"
+  },
+  "后台自检 {0}/70 秒": {
+    "zh": "后台自检 {0}/70 秒",
+    "en": "Background self-check {0}/70s"
+  },
+  "后台截图失败": {
+    "zh": "后台截图失败",
+    "en": "Background screen capture failed"
+  },
+  "自检通过：应用列表和 70 秒后台截图正常": {
+    "zh": "自检通过：应用列表和 70 秒后台截图正常",
+    "en": "Self-check passed: app list and 70 seconds of background capture worked"
+  },
+  "自检通过": {
+    "zh": "自检通过",
+    "en": "Self-check passed"
+  },
+  "自检已停止": {
+    "zh": "自检已停止",
+    "en": "Self-check stopped"
+  },
+  "收起详情": {
+    "zh": "收起详情",
+    "en": "Hide details"
+  },
+  "查看详情": {
+    "zh": "查看详情",
+    "en": "Show details"
+  },
+  "{0} 轮 · {1} 次工具调用": {
+    "zh": "{0} 轮 · {1} 次工具调用",
+    "en": "{0} turns · {1} tool calls"
+  },
+  "想让手机帮你做什么？": {
+    "zh": "想让手机帮你做什么？",
+    "en": "What would you like your phone to do?"
+  },
+  "任务示例": {
+    "zh": "任务示例",
+    "en": "Example tasks"
+  },
+  "查看设备信息": {
+    "zh": "查看设备信息",
+    "en": "Check device info"
+  },
+  "打开设置，读出系统版本": {
+    "zh": "打开设置，读出系统版本",
+    "en": "Open Settings and read the OS version"
+  },
+  "打开设置，查看这台 iPhone 的系统版本并告诉我。": {
+    "zh": "打开设置，查看这台 iPhone 的系统版本并告诉我。",
+    "en": "Open Settings and tell me this iPhone's iOS version."
+  },
+  "整理今天的安排": {
+    "zh": "整理今天的安排",
+    "en": "Organize today's schedule"
+  },
+  "查看日历，按时间梳理": {
+    "zh": "查看日历，按时间梳理",
+    "en": "Review the calendar in time order"
+  },
+  "查看我今天的日历安排，按时间顺序总结给我。": {
+    "zh": "查看我今天的日历安排，按时间顺序总结给我。",
+    "en": "Review today's calendar and summarize my schedule in time order."
+  },
+  "查找附近的咖啡店": {
+    "zh": "查找附近的咖啡店",
+    "en": "Find nearby cafés"
+  },
+  "比较评分与营业时间": {
+    "zh": "比较评分与营业时间",
+    "en": "Compare ratings and opening hours"
+  },
+  "帮我查找附近的咖啡店，比较评分与营业时间，先给我几个选项。": {
+    "zh": "帮我查找附近的咖啡店，比较评分与营业时间，先给我几个选项。",
+    "en": "Find nearby cafés, compare ratings and opening hours, and show me a few options first."
+  },
+  "填入任务描述，由你点击开始": {
+    "zh": "填入任务描述，由你点击开始",
+    "en": "Fills in a task description for you to send"
+  },
+  "需要你的回复": {
+    "zh": "需要你的回复",
+    "en": "Your reply is needed"
+  },
+  "发送一条通知，检查能否直接回复。": {
+    "zh": "发送一条通知，检查能否直接回复。",
+    "en": "Send a notification to check whether you can reply directly."
+  },
+  "发送测试通知": {
+    "zh": "发送测试通知",
+    "en": "Send test notification"
+  },
+  "重新发送": {
+    "zh": "重新发送",
+    "en": "Send again"
+  },
+  "没有看到横幅时，可以在通知中心找到测试通知。": {
+    "zh": "没有看到横幅时，可以在通知中心找到测试通知。",
+    "en": "If no banner appears, find the test notification in Notification Center."
+  },
+  "通知设置": {
+    "zh": "通知设置",
+    "en": "Notification settings"
+  },
+  "测试不会运行手机任务。": {
+    "zh": "测试不会运行手机任务。",
+    "en": "This test does not run a phone task."
+  },
+  "通知回复测试": {
+    "zh": "通知回复测试",
+    "en": "Notification reply test"
+  },
+  "准备发送": {
+    "zh": "准备发送",
+    "en": "Preparing to send"
+  },
+  "约 {0} 秒后发出": {
+    "zh": "约 {0} 秒后发出",
+    "en": "Sends in about {0} seconds"
+  },
+  "等待通知回复": {
+    "zh": "等待通知回复",
+    "en": "Waiting for notification reply"
+  },
+  "测试通过": {
+    "zh": "测试通过",
+    "en": "Test passed"
+  },
+  "测试未完成": {
+    "zh": "测试未完成",
+    "en": "Test incomplete"
+  },
+  "测试已停止": {
+    "zh": "测试已停止",
+    "en": "Test stopped"
+  },
+  "任务运行中，停止后可切换聊天。": {
+    "zh": "任务运行中，停止后可切换聊天。",
+    "en": "A task is running. Stop it before switching chats."
+  },
+  "还没有历史聊天": {
+    "zh": "还没有历史聊天",
+    "en": "No chat history yet"
+  },
+  "没有找到聊天": {
+    "zh": "没有找到聊天",
+    "en": "No chats found"
+  },
+  "当前聊天": {
+    "zh": "当前聊天",
+    "en": "Current chat"
+  },
+  "草稿 · ": {
+    "zh": "草稿 · ",
+    "en": "Draft · "
+  },
+  "未发送": {
+    "zh": "未发送",
+    "en": "Unsent"
+  },
+  "删除": {
+    "zh": "删除",
+    "en": "Delete"
+  },
+  "删除聊天": {
+    "zh": "删除聊天",
+    "en": "Delete chat"
+  },
+  "搜索聊天标题或摘要": {
+    "zh": "搜索聊天标题或摘要",
+    "en": "Search chat titles or previews"
+  },
+  "删除这段聊天及其本机上下文？": {
+    "zh": "删除这段聊天及其本机上下文？",
+    "en": "Delete this chat and its local context?"
+  },
+  "聊天记录已不存在": {
+    "zh": "聊天记录已不存在",
+    "en": "This chat no longer exists"
+  },
+  "聊天已删除，未重新写入": {
+    "zh": "聊天已删除，未重新写入",
+    "en": "This chat was deleted and was not saved again"
+  },
+  "聊天上下文与记录不匹配": {
+    "zh": "聊天上下文与记录不匹配",
+    "en": "Chat context does not match the record"
+  },
+  "问题属于另一段聊天": {
+    "zh": "问题属于另一段聊天",
+    "en": "This question belongs to another chat"
+  },
+  "聊天已删除": {
+    "zh": "聊天已删除",
+    "en": "Chat deleted"
+  },
+  "聊天编号不匹配": {
+    "zh": "聊天编号不匹配",
+    "en": "Chat ID mismatch"
+  },
+  "保留观察截图": {
+    "zh": "保留观察截图",
+    "en": "Keep observation screenshots"
+  },
+  "记录任务、回复和输入原文": {
+    "zh": "记录任务、回复和输入原文",
+    "en": "Record task, reply, and input text"
+  },
+  "下次任务的记录方式": {
+    "zh": "下次任务的记录方式",
+    "en": "Logging for the next task"
+  },
+  "默认记录坐标、耗时、错误和暂停来源；输入文字只记长度。调试记录可能包含私人内容，保存在本机且不会自动上传。执行任务时，模型仍会接收所需的屏幕和输入。SoloUse 登录凭据、配对文件和模型内部推理不进入调试包。": {
+    "zh": "默认记录坐标、耗时、错误和暂停来源；输入文字只记长度。调试记录可能包含私人内容，保存在本机且不会自动上传。执行任务时，模型仍会接收所需的屏幕和输入。SoloUse 登录凭据、配对文件和模型内部推理不进入调试包。",
+    "en": "By default, logs record coordinates, timing, errors, and pause sources; input text is recorded only as a length. Debug records may contain private information, stay on this device, and are not uploaded automatically. During tasks, the model still receives the screens and input it needs. SoloUse credentials, pairing files, and internal model reasoning are excluded from debug exports."
+  },
+  "最近 5 次任务": {
+    "zh": "最近 5 次任务",
+    "en": "Last 5 tasks"
+  },
+  "从这个版本开始，启动任务后会自动建立记录。": {
+    "zh": "从这个版本开始，启动任务后会自动建立记录。",
+    "en": "Starting with this version, a record is created automatically when a task starts."
+  },
+  "{0} 条事件 · {1} 张截图": {
+    "zh": "{0} 条事件 · {1} 张截图",
+    "en": "{0} events · {1} screenshots"
+  },
+  "部分记录未保存；原因和计数包含在调试包中。": {
+    "zh": "部分记录未保存；原因和计数包含在调试包中。",
+    "en": "Some records were not saved. Reasons and counts are included in the debug export."
+  },
+  "导出调试包": {
+    "zh": "导出调试包",
+    "en": "Export debug archive"
+  },
+  "每次最多保留 24 张观察截图、约 24 MB 日志与图片。图片是模型实际收到的版本，事件可按 frame_id 和调用编号关联。": {
+    "zh": "每次最多保留 24 张观察截图、约 24 MB 日志与图片。图片是模型实际收到的版本，事件可按 frame_id 和调用编号关联。",
+    "en": "Each run keeps up to 24 observation screenshots and about 24 MB of logs and images. Images match what the model received. Events can be linked by frame_id and call ID."
+  },
+  "正在生成调试包…": {
+    "zh": "正在生成调试包…",
+    "en": "Creating debug archive…"
+  },
+  "截图尺寸无效": {
+    "zh": "截图尺寸无效",
+    "en": "Invalid screenshot dimensions"
+  },
+  "截图内容与尺寸不一致": {
+    "zh": "截图内容与尺寸不一致",
+    "en": "Screenshot content and dimensions do not match"
+  },
+  "截图无法读取": {
+    "zh": "截图无法读取",
+    "en": "Could not read screenshot"
+  },
+  "截图超过输入限制": {
+    "zh": "截图超过输入限制",
+    "en": "Screenshot exceeds the input limit"
+  },
+  "查看我明天的日历安排，按时间顺序整理给我。": {
+    "zh": "查看我明天的日历安排，按时间顺序整理给我。",
+    "en": "Review tomorrow's calendar and summarize it in time order."
+  },
+  "我会先查看日历，再整理明天的安排。": {
+    "zh": "我会先查看日历，再整理明天的安排。",
+    "en": "I'll check the calendar and organize tomorrow's schedule."
+  },
+  "我找到了两个名为「项目讨论」的日程。你希望我整理哪一个？也可以补充你要关注的内容。": {
+    "zh": "我找到了两个名为「项目讨论」的日程。你希望我整理哪一个？也可以补充你要关注的内容。",
+    "en": "I found two events named “Project discussion.” Which should I review? You can also tell me what to focus on."
+  },
+  "上午 10:00 · 设计评审": {
+    "zh": "上午 10:00 · 设计评审",
+    "en": "10:00 AM · Design review"
+  },
+  "下午 15:00 · 项目进度同步": {
+    "zh": "下午 15:00 · 项目进度同步",
+    "en": "3:00 PM · Project update"
+  },
+  "操作已暂停，等待你选择。": {
+    "zh": "操作已暂停，等待你选择。",
+    "en": "Actions paused, waiting for your choice."
+  },
+  "你已接管手机。继续时会重新查看当前屏幕。": {
+    "zh": "你已接管手机。继续时会重新查看当前屏幕。",
+    "en": "You took control of the phone. The current screen will be observed again when you resume."
+  },
+  "设备连接已中断。请保持手机解锁，并检查 LocalDevVPN 是否仍在连接。": {
+    "zh": "设备连接已中断。请保持手机解锁，并检查 LocalDevVPN 是否仍在连接。",
+    "en": "Device disconnected. Keep your iPhone unlocked and check that LocalDevVPN is connected."
+  },
+  "正在查看明天的日程安排": {
+    "zh": "正在查看明天的日程安排",
+    "en": "Reviewing tomorrow's schedule"
+  },
+  "登录响应缺少凭据，请重新登录": {
+    "zh": "登录响应缺少凭据，请重新登录",
+    "en": "Credentials are missing from the sign-in response. Sign in again."
+  },
+  "登录响应缺少订阅账户信息": {
+    "zh": "登录响应缺少订阅账户信息",
+    "en": "Subscription account details are missing from the sign-in response"
+  },
+  "登录响应中的账户不一致": {
+    "zh": "登录响应中的账户不一致",
+    "en": "Accounts in the sign-in response do not match"
+  },
+  "续期后的账户发生变化，请重新登录": {
+    "zh": "续期后的账户发生变化，请重新登录",
+    "en": "The account changed after renewal. Sign in again."
+  },
+  "此实验尚未适配该工作区的专用服务入口": {
+    "zh": "此实验尚未适配该工作区的专用服务入口",
+    "en": "This experiment does not yet support this workspace's dedicated endpoint"
+  },
+  "设备码响应不完整": {
+    "zh": "设备码响应不完整",
+    "en": "Incomplete device code response"
+  },
+  "设备码轮询间隔无效": {
+    "zh": "设备码轮询间隔无效",
+    "en": "Invalid device code polling interval"
+  },
+  "模型事件格式无效": {
+    "zh": "模型事件格式无效",
+    "en": "Invalid model event format"
+  },
+  "模型事件超过实验大小限制": {
+    "zh": "模型事件超过实验大小限制",
+    "en": "Model event exceeds the experimental size limit"
+  },
+  "模型事件不是有效 UTF-8": {
+    "zh": "模型事件不是有效 UTF-8",
+    "en": "Model event is not valid UTF-8"
+  },
+  "模型事件行超过实验大小限制": {
+    "zh": "模型事件行超过实验大小限制",
+    "en": "Model event line exceeds the experimental size limit"
+  },
+  "无法创建 JavaScript 运行环境": {
+    "zh": "无法创建 JavaScript 运行环境",
+    "en": "Could not create the JavaScript runtime"
+  },
+  "JavaScript 未返回结果": {
+    "zh": "JavaScript 未返回结果",
+    "en": "JavaScript returned no result"
+  },
+  "已有手机会话在运行": {
+    "zh": "已有手机会话在运行",
+    "en": "A phone session is already running"
+  },
+  "同一工具动作已在执行": {
+    "zh": "同一工具动作已在执行",
+    "en": "This tool action is already running"
+  },
+  "截图缓冲区已失效，请重新观察": {
+    "zh": "截图缓冲区已失效，请重新观察",
+    "en": "Screenshot buffer expired. Observe again."
+  },
+  "无法读取本机钥匙串（{0}）": {
+    "zh": "无法读取本机钥匙串（{0}）",
+    "en": "Could not read the device Keychain ({0})"
+  },
+  "无法保存本机钥匙串（{0}）": {
+    "zh": "无法保存本机钥匙串（{0}）",
+    "en": "Could not save to the device Keychain ({0})"
+  },
+  "无法更新本机钥匙串（{0}）": {
+    "zh": "无法更新本机钥匙串（{0}）",
+    "en": "Could not update the device Keychain ({0})"
+  },
+  "无法清除本机钥匙串（{0}）": {
+    "zh": "无法清除本机钥匙串（{0}）",
+    "en": "Could not clear the device Keychain ({0})"
+  },
+  "{0}：缺少 HTTP 响应": {
+    "zh": "{0}：缺少 HTTP 响应",
+    "en": "{0}: No HTTP response"
+  },
+  "{0}：响应格式无效": {
+    "zh": "{0}：响应格式无效",
+    "en": "{0}: Invalid response format"
+  },
+  "申请设备码": {
+    "zh": "申请设备码",
+    "en": "Request device code"
+  },
+  "等待网页授权": {
+    "zh": "等待网页授权",
+    "en": "Wait for web authorization"
+  },
+  "设备码已过期，请重新登录": {
+    "zh": "设备码已过期，请重新登录",
+    "en": "Device code expired. Sign in again."
+  },
+  "交换登录凭据": {
+    "zh": "交换登录凭据",
+    "en": "Exchange sign-in credentials"
+  },
+  "续期登录凭据": {
+    "zh": "续期登录凭据",
+    "en": "Renew sign-in credentials"
+  },
+  "请先登录 ChatGPT": {
+    "zh": "请先登录 ChatGPT",
+    "en": "Sign in to ChatGPT first"
+  },
+  "读取模型列表": {
+    "zh": "读取模型列表",
+    "en": "Read model list"
+  },
+  "账号已变化，请重新开始任务": {
+    "zh": "账号已变化，请重新开始任务",
+    "en": "The account changed. Start the task again."
+  },
+  "模型请求没有 HTTP 响应": {
+    "zh": "模型请求没有 HTTP 响应",
+    "en": "Model request received no HTTP response"
+  },
+  "模型请求": {
+    "zh": "模型请求",
+    "en": "Model request"
+  },
+  "已发送按键，结果由后续观察核对": {
+    "zh": "已发送按键，结果由后续观察核对",
+    "en": "Keys sent; verify the result with a new observation"
+  },
+  "动作后的新画面": {
+    "zh": "动作后的新画面",
+    "en": "New screen after the action"
+  },
+  "自动观察未完成": {
+    "zh": "自动观察未完成",
+    "en": "Automatic observation did not finish"
+  },
+  "尚未收到问题的回答": {
+    "zh": "尚未收到问题的回答",
+    "en": "No reply to the question has been received"
+  },
+  "已达到设置的 {0} 轮模型调用上限": {
+    "zh": "已达到设置的 {0} 轮模型调用上限",
+    "en": "The configured limit of {0} model turns was reached"
+  },
+  "对话记录已达 {0} MB，超过本机上下文容量限制": {
+    "zh": "对话记录已达 {0} MB，超过本机上下文容量限制",
+    "en": "Conversation reached {0} MB, exceeding local context capacity"
+  },
+  "工具结果尚未齐全": {
+    "zh": "工具结果尚未齐全",
+    "en": "Tool results are still incomplete"
+  },
+  "模型单轮返回了超过 8 个工具调用，响应不符合当前工具协议": {
+    "zh": "模型单轮返回了超过 8 个工具调用，响应不符合当前工具协议",
+    "en": "The model returned more than 8 tool calls in one turn, exceeding the current tool protocol"
+  },
+  "模型返回重复或无效的工具编号": {
+    "zh": "模型返回重复或无效的工具编号",
+    "en": "The model returned duplicate or invalid tool IDs"
+  },
+  "工具编号被不同请求重复使用，已停止": {
+    "zh": "工具编号被不同请求重复使用，已停止",
+    "en": "A tool ID was reused for a different request. Stopped."
+  },
+  "工具结果与当前请求不匹配": {
+    "zh": "工具结果与当前请求不匹配",
+    "en": "Tool result does not match the current request"
+  },
+  "续聊消息无效，或之前的工具结果尚未结算": {
+    "zh": "续聊消息无效，或之前的工具结果尚未结算",
+    "en": "Invalid follow-up message, or previous tool results are still pending"
+  },
+  "工具记录不完整": {
+    "zh": "工具记录不完整",
+    "en": "Incomplete tool record"
+  },
+  "保存的问题与待完成工具不匹配": {
+    "zh": "保存的问题与待完成工具不匹配",
+    "en": "Saved question does not match the pending tool"
+  },
+  "轮数上限必须为正数，或不设置上限": {
+    "zh": "轮数上限必须为正数，或不设置上限",
+    "en": "The turn limit must be positive or unlimited"
+  },
+  "模型既未调用工具，也未返回结果": {
+    "zh": "模型既未调用工具，也未返回结果",
+    "en": "The model returned neither a tool call nor a result"
+  },
+  "某个操作可能已执行，已停止自动操作。请检查手机后再决定下一步。": {
+    "zh": "某个操作可能已执行，已停止自动操作。请检查手机后再决定下一步。",
+    "en": "An action may have executed, so automation stopped. Check your phone before deciding what to do next."
+  },
+  "正在读取通知状态": {
+    "zh": "正在读取通知状态",
+    "en": "Reading notification status"
+  },
+  "未设置": {
+    "zh": "未设置",
+    "en": "Not set"
+  },
+  "静默通知": {
+    "zh": "静默通知",
+    "en": "Quiet notifications"
+  },
+  "临时允许": {
+    "zh": "临时允许",
+    "en": "Temporarily allowed"
+  },
+  "接收任务结果和回复提醒。": {
+    "zh": "接收任务结果和回复提醒。",
+    "en": "Receive task results and reply reminders."
+  },
+  "前往系统设置，打开「允许通知」。": {
+    "zh": "前往系统设置，打开「允许通知」。",
+    "en": "Open Settings and turn on Allow Notifications."
+  },
+  "任务结束或需要回复时通知你。": {
+    "zh": "任务结束或需要回复时通知你。",
+    "en": "Notify you when a task ends or needs a reply."
+  },
+  "通知以静默方式送达。": {
+    "zh": "通知以静默方式送达。",
+    "en": "Notifications are delivered quietly."
+  },
+  "通知权限暂时有效。": {
+    "zh": "通知权限暂时有效。",
+    "en": "Notification permission is temporary."
+  },
+  "无法请求通知权限，请稍后重试或前往系统设置。": {
+    "zh": "无法请求通知权限，请稍后重试或前往系统设置。",
+    "en": "Could not request notification permission. Try again later or open Settings."
+  },
+  "所选模型或推理强度已不可用，请重新选择": {
+    "zh": "所选模型或推理强度已不可用，请重新选择",
+    "en": "The selected model or reasoning effort is unavailable. Choose again."
+  },
+  "当前账号目录未提供此模型的 Fast，请在模型菜单关闭 Fast 或选择支持的模型": {
+    "zh": "当前账号目录未提供此模型的 Fast，请在模型菜单关闭 Fast 或选择支持的模型",
+    "en": "Your account does not offer Fast for this model. Turn Fast off or select a supported model."
+  },
+  "模型目录格式无效": {
+    "zh": "模型目录格式无效",
+    "en": "Invalid model catalog format"
+  },
+  "当前订阅未列出所选模型，请打开模型菜单重新选择": {
+    "zh": "当前订阅未列出所选模型，请打开模型菜单重新选择",
+    "en": "Your subscription does not list the selected model. Open the model menu and choose again."
+  },
+  "Fast：服务端已确认": {
+    "zh": "Fast：服务端已确认",
+    "en": "Fast: confirmed by the server"
+  },
+  "已请求 Fast；服务端回执未确认加速档位": {
+    "zh": "已请求 Fast；服务端回执未确认加速档位",
+    "en": "Fast requested; the server receipt did not confirm accelerated service"
+  },
+  "已请求 Fast；服务端未返回实际速度档位": {
+    "zh": "已请求 Fast；服务端未返回实际速度档位",
+    "en": "Fast requested; the server did not report the actual service tier"
+  },
+  "已请求 Fast；本轮服务端返回其他速度档位，详见诊断记录": {
+    "zh": "已请求 Fast；本轮服务端返回其他速度档位，详见诊断记录",
+    "en": "Fast requested; the server returned a different service tier for this turn. See diagnostics."
+  },
+  "当前账号与这段聊天不同，请切回原账号或新建聊天。": {
+    "zh": "当前账号与这段聊天不同，请切回原账号或新建聊天。",
+    "en": "This chat belongs to another account. Switch to the original account or start a new chat."
+  },
+  "这段脚本执行超时，变量已清空；已完成的手机操作保留。": {
+    "zh": "这段脚本执行超时，变量已清空；已完成的手机操作保留。",
+    "en": "This script timed out and its variables were cleared. Completed phone actions remain."
+  },
+  "这段脚本计算时间过长，已停止并清空变量；已完成的手机操作保留。": {
+    "zh": "这段脚本计算时间过长，已停止并清空变量；已完成的手机操作保留。",
+    "en": "This script exceeded its compute time. It stopped and cleared variables; completed phone actions remain."
+  },
+  "这段脚本已停止，变量已清空；已完成的手机操作保留，模型可根据记录继续。": {
+    "zh": "这段脚本已停止，变量已清空；已完成的手机操作保留，模型可根据记录继续。",
+    "en": "This script stopped and cleared variables. Completed phone actions remain, and the model can continue from the records."
+  },
+  "本段操作已完成，变量已保留，等待模型继续。": {
+    "zh": "本段操作已完成，变量已保留，等待模型继续。",
+    "en": "This segment finished. Variables were kept; waiting for the model to continue."
+  },
+  "脚本已完成；较早的截图或过长的输出已省略，变量已保留。": {
+    "zh": "脚本已完成；较早的截图或过长的输出已省略，变量已保留。",
+    "en": "Script finished. Older screenshots or excessive output were omitted; variables were kept."
+  },
+  "{0} 轮后暂停": {
+    "zh": "{0} 轮后暂停",
+    "en": "Pause after {0} turns"
+  },
+  "不限轮数": {
+    "zh": "不限轮数",
+    "en": "Unlimited turns"
+  },
+  "{0} 分钟后暂停": {
+    "zh": "{0} 分钟后暂停",
+    "en": "Pause after {0} minutes"
+  },
+  "不限时长": {
+    "zh": "不限时长",
+    "en": "Unlimited runtime"
+  },
+  "工具参数过大": {
+    "zh": "工具参数过大",
+    "en": "Tool arguments are too large"
+  },
+  "工具参数必须是对象": {
+    "zh": "工具参数必须是对象",
+    "en": "Tool arguments must be an object"
+  },
+  "动作批次格式无效": {
+    "zh": "动作批次格式无效",
+    "en": "Invalid action batch format"
+  },
+  "动作批次包含无效操作": {
+    "zh": "动作批次包含无效操作",
+    "en": "Action batch contains an invalid operation"
+  },
+  "未知工具": {
+    "zh": "未知工具",
+    "en": "Unknown tool"
+  },
+  "问题文字无效或过长": {
+    "zh": "问题文字无效或过长",
+    "en": "Question text is invalid or too long"
+  },
+  "问题选项无效": {
+    "zh": "问题选项无效",
+    "en": "Invalid question choices"
+  },
+  "未知手机工具": {
+    "zh": "未知手机工具",
+    "en": "Unknown phone tool"
+  },
+  "工具参数字段不匹配": {
+    "zh": "工具参数字段不匹配",
+    "en": "Tool argument fields do not match"
+  },
+  "文字参数无效": {
+    "zh": "文字参数无效",
+    "en": "Invalid text argument"
+  },
+  "布尔参数无效": {
+    "zh": "布尔参数无效",
+    "en": "Invalid Boolean argument"
+  },
+  "数值参数无效": {
+    "zh": "数值参数无效",
+    "en": "Invalid numeric argument"
+  },
+  "每次粘贴最多 16 KB": {
+    "zh": "每次粘贴最多 16 KB",
+    "en": "Each paste supports up to 16 KB"
+  },
+  "每次输入最多 512 字节，可分批输入": {
+    "zh": "每次输入最多 512 字节，可分批输入",
+    "en": "Each input supports up to 512 bytes. Split longer input into batches."
+  },
+  "粘贴标识无效，请使用最近回执中的 paste_id": {
+    "zh": "粘贴标识无效，请使用最近回执中的 paste_id",
+    "en": "Invalid paste ID. Use paste_id from the latest receipt."
+  },
+  "等待时长无效": {
+    "zh": "等待时长无效",
+    "en": "Invalid wait duration"
+  },
+  "手势时长无效": {
+    "zh": "手势时长无效",
+    "en": "Invalid gesture duration"
+  },
+  "App 标识无效": {
+    "zh": "App 标识无效",
+    "en": "Invalid app identifier"
+  },
+  "手机正在通话，暂时无法连接屏幕。请结束电话或语音通话后，再手动开始任务。": {
+    "zh": "手机正在通话，暂时无法连接屏幕。请结束电话或语音通话后，再手动开始任务。",
+    "en": "A phone or voice call is in progress, so the screen cannot connect. End the call, then start the task manually."
+  },
+  "屏幕连接已被其他会话占用。请关闭其他屏幕共享或镜像连接后重试。": {
+    "zh": "屏幕连接已被其他会话占用。请关闭其他屏幕共享或镜像连接后重试。",
+    "en": "Another session is using the screen connection. Close other screen-sharing or mirroring connections and try again."
+  },
+  "手机连接失败。请在「调试记录」中查看详细错误。": {
+    "zh": "手机连接失败。请在「调试记录」中查看详细错误。",
+    "en": "Phone connection failed. See Debug records for details."
+  },
+  "模型输出索引无效": {
+    "zh": "模型输出索引无效",
+    "en": "Invalid model output index"
+  },
+  "模型未完成本轮响应：{0}": {
+    "zh": "模型未完成本轮响应：{0}",
+    "en": "The model did not complete this response: {0}"
+  },
+  "模型响应未完成": {
+    "zh": "模型响应未完成",
+    "en": "Model response incomplete"
+  },
+  "服务端实际模型与所选模型不符（所选：{0}）": {
+    "zh": "服务端实际模型与所选模型不符（所选：{0}）",
+    "en": "The server model does not match the selected model ({0})"
+  },
+  "服务端实际推理强度与所选强度不符（所选：{0}）": {
+    "zh": "服务端实际推理强度与所选强度不符（所选：{0}）",
+    "en": "The server's reasoning effort does not match the selected effort ({0})"
+  },
+  "模型完成回执没有输出": {
+    "zh": "模型完成回执没有输出",
+    "en": "Model completion receipt has no output"
+  },
+  "模型工具调用不完整": {
+    "zh": "模型工具调用不完整",
+    "en": "Incomplete model tool call"
+  },
+  "模型响应过大": {
+    "zh": "模型响应过大",
+    "en": "Model response is too large"
+  },
+  "模型接口返回了网页": {
+    "zh": "模型接口返回了网页",
+    "en": "The model endpoint returned a web page"
+  },
+  "模型事件流提前结束，没有完成回执": {
+    "zh": "模型事件流提前结束，没有完成回执",
+    "en": "The model event stream ended before a completion receipt"
+  },
+  "本地 VPN 通路": {
+    "zh": "本地 VPN 通路",
+    "en": "Local VPN connection"
+  },
+  "本机连接已验证": {
+    "zh": "本机连接已验证",
+    "en": "Local connection verified"
+  },
+  "正在连接这台 iPhone…": {
+    "zh": "正在连接这台 iPhone…",
+    "en": "Connecting to this iPhone…"
+  },
+  "连接 LocalDevVPN 后检查": {
+    "zh": "连接 LocalDevVPN 后检查",
+    "en": "Connect LocalDevVPN, then check"
+  },
+  "屏幕与控制": {
+    "zh": "屏幕与控制",
+    "en": "Screen and control"
+  },
+  "截图与控制服务正常": {
+    "zh": "截图与控制服务正常",
+    "en": "Screen capture and control are working"
+  },
+  "正在检查屏幕与控制服务…": {
+    "zh": "正在检查屏幕与控制服务…",
+    "en": "Checking screen and control services…"
+  },
+  "等待连接检查": {
+    "zh": "等待连接检查",
+    "en": "Waiting for a connection check"
+  },
+  "登录后检查": {
+    "zh": "登录后检查",
+    "en": "Sign in, then check"
+  },
+  "正在读取模型目录…": {
+    "zh": "正在读取模型目录…",
+    "en": "Loading model catalog…"
+  },
+  "目录读取失败，请检查网络后重试": {
+    "zh": "目录读取失败，请检查网络后重试",
+    "en": "Could not load the catalog. Check your network and try again."
+  },
+  "等待刷新模型目录": {
+    "zh": "等待刷新模型目录",
+    "en": "Waiting for model catalog refresh"
+  },
+  "ChatGPT 账号": {
+    "zh": "ChatGPT 账号",
+    "en": "ChatGPT account"
+  },
+  "登录你的 ChatGPT / Codex 订阅": {
+    "zh": "登录你的 ChatGPT / Codex 订阅",
+    "en": "Sign in with your ChatGPT / Codex subscription"
+  },
+  "所选模型": {
+    "zh": "所选模型",
+    "en": "Selected model"
+  },
+  "前往设备页完成配对": {
+    "zh": "前往设备页完成配对",
+    "en": "Complete pairing on the Device tab"
+  },
+  "准备就绪": {
+    "zh": "准备就绪",
+    "en": "Ready"
+  },
+  "正在连接手机": {
+    "zh": "正在连接手机",
+    "en": "Connecting to the phone"
+  },
+  "模型处理中": {
+    "zh": "模型处理中",
+    "en": "Model is working"
+  },
+  "正在操作手机": {
+    "zh": "正在操作手机",
+    "en": "Operating the phone"
+  },
+  "正在暂停": {
+    "zh": "正在暂停",
+    "en": "Pausing"
+  },
+  "已暂停": {
+    "zh": "已暂停",
+    "en": "Paused"
+  },
+  "等待你的回复": {
+    "zh": "等待你的回复",
+    "en": "Waiting for your reply"
+  },
+  "任务结束": {
+    "zh": "任务结束",
+    "en": "Task ended"
+  },
+  "需要检查": {
+    "zh": "需要检查",
+    "en": "Needs attention"
+  },
+  "任务已中断": {
+    "zh": "任务已中断",
+    "en": "Task interrupted"
+  },
+  "执行结果不确定，已停止": {
+    "zh": "执行结果不确定，已停止",
+    "en": "Action result is uncertain. Stopped."
+  },
+  "观察屏幕": {
+    "zh": "观察屏幕",
+    "en": "Observe screen"
+  },
+  "查找应用": {
+    "zh": "查找应用",
+    "en": "Find apps"
+  },
+  "打开应用": {
+    "zh": "打开应用",
+    "en": "Open app"
+  },
+  "点击屏幕": {
+    "zh": "点击屏幕",
+    "en": "Tap screen"
+  },
+  "双击屏幕": {
+    "zh": "双击屏幕",
+    "en": "Double-tap screen"
+  },
+  "长按屏幕": {
+    "zh": "长按屏幕",
+    "en": "Touch and hold"
+  },
+  "滑动屏幕": {
+    "zh": "滑动屏幕",
+    "en": "Swipe screen"
+  },
+  "输入文字": {
+    "zh": "输入文字",
+    "en": "Type text"
+  },
+  "按下组合键": {
+    "zh": "按下组合键",
+    "en": "Press key combination"
+  },
+  "回到主屏幕": {
+    "zh": "回到主屏幕",
+    "en": "Go to Home Screen"
+  },
+  "等待界面变化": {
+    "zh": "等待界面变化",
+    "en": "Wait for screen changes"
+  },
+  "执行一组操作": {
+    "zh": "执行一组操作",
+    "en": "Run action batch"
+  },
+  "向你提问": {
+    "zh": "向你提问",
+    "en": "Ask you a question"
+  },
+  "执行手机脚本": {
+    "zh": "执行手机脚本",
+    "en": "Run phone script"
+  },
+  "粘贴文字": {
+    "zh": "粘贴文字",
+    "en": "Paste text"
+  },
+  "完成粘贴": {
+    "zh": "完成粘贴",
+    "en": "Finish paste"
+  },
+  "执行工具": {
+    "zh": "执行工具",
+    "en": "Run tool"
+  },
+  "上次任务已中断。这里只恢复记录，不会自动操作手机。": {
+    "zh": "上次任务已中断。这里只恢复记录，不会自动操作手机。",
+    "en": "The previous task was interrupted. Only its record was restored; phone actions will not start automatically."
+  },
+  "SoloUse 已按设置暂停": {
+    "zh": "SoloUse 已按设置暂停",
+    "en": "SoloUse paused at your limit"
+  },
+  "已达到你设置的运行限制，点开后可继续同一任务。": {
+    "zh": "已达到你设置的运行限制，点开后可继续同一任务。",
+    "en": "Your configured run limit was reached. Open SoloUse to resume this task."
+  },
+  "SoloUse 需要你的回复": {
+    "zh": "SoloUse 需要你的回复",
+    "en": "SoloUse needs your reply"
+  },
+  "SoloUse 需要检查": {
+    "zh": "SoloUse 需要检查",
+    "en": "SoloUse needs attention"
+  },
+  "SoloUse 任务结束": {
+    "zh": "SoloUse 任务结束",
+    "en": "SoloUse task ended"
+  },
+  "手机操作已暂停，点开查看问题。": {
+    "zh": "手机操作已暂停，点开查看问题。",
+    "en": "Phone actions are paused. Open to view the question."
+  },
+  "点开 SoloUse 查看任务记录和回答。": {
+    "zh": "点开 SoloUse 查看任务记录和回答。",
+    "en": "Open SoloUse to view the task record and response."
+  },
+  "语言": {
+    "zh": "语言",
+    "en": "Language"
+  },
+  "跟随系统": {
+    "zh": "跟随系统",
+    "en": "System default"
+  },
+  "界面语言": {
+    "zh": "界面语言",
+    "en": "App language"
+  },
+  "操作未完成，可在调试记录中查看原始详情。": {
+    "zh": "操作未完成，可在调试记录中查看原始详情。",
+    "en": "The action did not finish. See Debug records for the original details."
+  },
+  "等待粘贴授权。处理 SoloUse 的系统弹窗后，再切换应用。": {
+    "zh": "等待粘贴授权。处理 SoloUse 的系统弹窗后，再切换应用。",
+    "en": "Waiting for paste permission. Handle SoloUse's system dialog before switching apps."
+  },
+  "正在准备剪贴板。请处理粘贴授权弹窗。": {
+    "zh": "正在准备剪贴板。请处理粘贴授权弹窗。",
+    "en": "Preparing the clipboard. Handle the paste-permission dialog."
+  },
+  "原始详情": {
+    "zh": "原始详情",
+    "en": "Original details"
+  },
+  "Observe SoloUse and handle its clipboard permission dialog before leaving the app. The model can use tap; no automatic permission response is sent.": {
+    "zh": "等待粘贴授权。处理 SoloUse 的系统弹窗后，再切换应用。",
+    "en": "Waiting for paste permission. Handle SoloUse's system dialog before switching apps."
+  },
+  "SoloUse is preparing an authorized local clipboard backup. Observe and handle its paste-permission dialog before leaving SoloUse. Phone observation and tap remain available.": {
+    "zh": "正在准备剪贴板。请处理粘贴授权弹窗。",
+    "en": "Preparing the clipboard. Handle the paste-permission dialog."
+  },
+  "Idle": {
+    "zh": "准备就绪",
+    "en": "Ready"
+  },
+  "Background task denied": {
+    "zh": "系统未能启动后台会话，请稍后重试",
+    "en": "The system could not start a background session. Try again later."
+  },
+  "Ready to test": {
+    "zh": "准备检查",
+    "en": "Ready to test"
+  },
+  "Not requested": {
+    "zh": "未申请",
+    "en": "Not requested"
+  },
+  "Expired": {
+    "zh": "已过期",
+    "en": "Expired"
+  },
+  "Active": {
+    "zh": "运行中",
+    "en": "Active"
+  },
+  "Requested": {
+    "zh": "已申请",
+    "en": "Requested"
+  },
+  "Unavailable: foreground only": {
+    "zh": "仅限前台运行",
+    "en": "Unavailable: foreground only"
+  },
+  "Completed": {
+    "zh": "已完成",
+    "en": "Completed"
+  },
+  "Enter the PIN in Settings": {
+    "zh": "请在系统设置中输入 PIN",
+    "en": "Enter the PIN in Settings"
+  },
+  "Pairing saved on this iPhone": {
+    "zh": "配对记录已保存在这台手机",
+    "en": "Pairing saved on this iPhone"
+  },
+  "Connection": {
+    "zh": "连接方式",
+    "en": "Connection"
+  },
+  "Direct loopback": {
+    "zh": "直接回环连接",
+    "en": "Direct loopback"
+  },
+  "Paired": {
+    "zh": "已配对",
+    "en": "Paired"
+  },
+  "Not paired": {
+    "zh": "未配对",
+    "en": "Not paired"
+  },
+  "Background: {0}": {
+    "zh": "后台：{0}",
+    "en": "Background: {0}"
+  },
+  "Captured device screen": {
+    "zh": "已捕获的手机画面",
+    "en": "Captured device screen"
+  },
+  "SoloUse pairing PIN": {
+    "zh": "SoloUse 配对 PIN",
+    "en": "SoloUse pairing PIN"
+  },
+  "This script reached its per-call execution/output limit. Continue with a new short script after observing the screen. Runtime reset; state/globalThis variables were lost. Earlier action receipts remain valid; do not repeat completed actions.": {
+    "zh": "这段脚本达到单次执行或输出限制，变量已清空。已完成的操作保留，模型可观察屏幕后继续。",
+    "en": "This script reached its execution or output limit and cleared its variables. Completed actions remain; the model can observe the screen and continue."
+  },
+  "界面预览 · 示例内容": {
+    "zh": "界面预览 · 示例内容",
+    "en": "Interface preview · Sample content"
+  },
+  "明天有两项安排：\n\n**10:00 — 设计评审**\n讨论新版本的界面方案。\n\n**15:00 — 项目进度同步**\n确认本周的交付安排。": {
+    "zh": "明天有两项安排：\n\n**10:00 — 设计评审**\n讨论新版本的界面方案。\n\n**15:00 — 项目进度同步**\n确认本周的交付安排。",
+    "en": "Tomorrow has two events:\n\n**10:00 — Design review**\nDiscuss the new interface.\n\n**15:00 — Project update**\nConfirm this week’s deliveries."
+  },
+  "本次模型：{0}": {
+    "zh": "本次模型：{0}",
+    "en": "Model for this run: {0}"
+  },
+  "已执行": {
+    "zh": "已执行",
+    "en": "Executed"
+  },
+  "复制回答": {
+    "zh": "复制回答",
+    "en": "Copy response"
+  },
+  "左右滑动查看表格": {
+    "zh": "左右滑动查看表格",
+    "en": "Swipe sideways to view the table"
+  },
+  "回答预览": {
+    "zh": "回答预览",
+    "en": "Response preview"
+  },
+  "代码": {
+    "zh": "代码",
+    "en": "Code"
+  },
+  "已复制": {
+    "zh": "已复制",
+    "en": "Copied"
+  },
+  "已勾选": {
+    "zh": "已勾选",
+    "en": "Checked"
+  },
+  "未勾选": {
+    "zh": "未勾选",
+    "en": "Unchecked"
+  },
+  "读取控件树": {
+    "zh": "读取控件树",
+    "en": "Read control tree"
+  },
+  "控件树暂不可用，已返回截图": {
+    "zh": "控件树暂不可用，已返回截图",
+    "en": "Control tree unavailable; screenshot returned"
+  },
+  "The original clipboard contents could not be backed up. Return to SoloUse and resume for foreground clipboard preparation; repeating paste on this unchanged clipboard will not help. No paste keys were sent and the original clipboard was not changed.": {
+    "zh": "无法备份原剪贴板，请返回 SoloUse 后继续，让应用在前台准备剪贴板。对未变化的剪贴板重复粘贴不会解决问题。本次未输入文字，也未更改原剪贴板。",
+    "en": "The original clipboard contents could not be backed up. Return to SoloUse and resume for foreground clipboard preparation; repeating paste on this unchanged clipboard will not help. No paste keys were sent and the original clipboard was not changed."
+  },
+  "从恢复点继续": {
+    "zh": "从恢复点继续",
+    "en": "Continue from checkpoint"
+  },
+  "继续上次任务。先查看当前屏幕，核对已完成的操作和不确定的结果，再继续。": {
+    "zh": "继续上次任务。先查看当前屏幕，核对已完成的操作和不确定的结果，再继续。",
+    "en": "Continue the previous task. First observe the current screen and reconcile completed actions and uncertain results before proceeding."
+  },
+  "正在整理上下文，历史截图已保存": {
+    "zh": "正在整理上下文，历史截图已保存",
+    "en": "Compacting context; historical screenshots are saved"
+  },
+  "上下文整理未完成，历史记录仍保留，可稍后继续。": {
+    "zh": "上下文整理未完成，历史记录仍保留，可稍后继续。",
+    "en": "Context compaction did not finish. History is preserved; you can resume later."
+  },
+  "当前请求过大（{0} MB），请整理上下文后继续；历史记录仍保留。": {
+    "zh": "当前请求过大（{0} MB），请整理上下文后继续；历史记录仍保留。",
+    "en": "The current request is too large ({0} MB). Compact the context to continue; history is preserved."
+  },
+  "查看历史截图": {
+    "zh": "查看历史截图",
+    "en": "Review historical screenshot"
+  },
+  "历史截图无法读取：{0}。如需查看现状，请重新观察屏幕。": {
+    "zh": "历史截图无法读取：{0}。如需查看现状，请重新观察屏幕。",
+    "en": "Historical image unavailable: {0}. Observe the current screen if needed."
+  },
+  "历史截图编号无效": {
+    "zh": "历史截图编号无效",
+    "en": "Invalid history image identifier"
+  },
+  "历史截图无效": {
+    "zh": "历史截图无效",
+    "en": "Invalid history image"
+  },
+  "历史截图大小无效": {
+    "zh": "历史截图大小无效",
+    "en": "Invalid history image size"
+  },
+  "历史截图已损坏": {
+    "zh": "历史截图已损坏",
+    "en": "History image is damaged"
+  },
+  "历史截图位置缺失": {
+    "zh": "历史截图位置缺失",
+    "en": "History image location missing"
+  },
+  "历史截图请求无效": {
+    "zh": "历史截图请求无效",
+    "en": "Invalid history image request"
+  },
+  "截图不属于当前聊天": {
+    "zh": "截图不属于当前聊天",
+    "en": "Image does not belong to this conversation"
+  },
+  "历史清单过大，无法读取": {
+    "zh": "历史清单过大，无法读取",
+    "en": "History manifest is too large to decode"
+  },
+  "查看截图目录": {
+    "zh": "查看截图目录",
+    "en": "Browse screenshot history"
+  }
+}

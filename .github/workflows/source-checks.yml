@@ -1,0 +1,18 @@
+name: Source publication checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check public files, documentation and license evidence
+        run: |
+          python3 Scripts/test-diagnostic-summary.py
+          python3 Scripts/test-release.py
+          python3 Scripts/check-release.py
+      - name: Exercise source-only packaging
+        run: |
+          python3 Scripts/package-source.py --output /tmp/SoloUse-source.zip
+          python3 Scripts/check-release.py --archive /tmp/SoloUse-source.zip

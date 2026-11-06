@@ -1,0 +1,14 @@
+[
+  {
+    "path": "Native/vendor/idevice/src/remote_pairing/opack.rs",
+    "rule": "apple-device-id",
+    "sha256": "bafe357e60207fb8d224e602c647f130c1a32c3525e846abb9f0c57d81bcb3a0",
+    "reason": "Public protocol fixture/documentation identifier, unchanged from pinned upstream idevice; not a SoloUse device ID."
+  },
+  {
+    "path": "Native/vendor/idevice/src/remote_pairing/peer_device.rs",
+    "rule": "apple-device-id",
+    "sha256": "4c798993ec508230ed4acb84c0399061f571d1da05a028cf75c93025dae58bf7",
+    "reason": "Public protocol fixture/documentation identifier, unchanged from pinned upstream idevice; not a SoloUse device ID."
+  }
+]

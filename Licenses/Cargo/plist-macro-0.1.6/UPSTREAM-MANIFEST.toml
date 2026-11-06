@@ -1,0 +1,13 @@
+[package]
+name = "plist-macro"
+description = "Macros and utilities for manipulating plists"
+version = "0.1.6"
+edition = "2024"
+authors = ["Jackson Coxson"]
+license = "MIT"
+documentation = "https://docs.rs/idevice"
+repository = "https://github.com/jkcoxson/plist_macro"
+keywords = ["plist", "apple"]
+
+[dependencies]
+plist = { version = "1.8" }

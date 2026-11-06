@@ -1,0 +1,5 @@
+// Copy to Config.local.xcconfig; that file is ignored by Git.
+// Use a reverse-DNS prefix you own. Generated app IDs end in .probe / .lab / .tree.
+SOLOUSE_BUNDLE_PREFIX = dev.yourname.solouse
+// Set your own Team in Xcode Signing & Capabilities, or uncomment this line:
+// DEVELOPMENT_TEAM = YOUR_TEAM_ID
